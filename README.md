@@ -1,3 +1,3 @@
-# mel_website
+# Melanie Bancilhon
 
 ## Header

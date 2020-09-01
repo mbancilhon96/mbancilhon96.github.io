@@ -2,7 +2,9 @@
 <html>
 
 <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <meta charset="utf-8"/>
 
@@ -12,91 +14,129 @@
 
 <ul id="menu">
 
-        <li id="menu" onClick="document.getElementById('bio').scrollIntoView();"><a>Bio</a></li>
-        <li id="menu" onClick="document.getElementById('publications').scrollIntoView();"><a>Publications</a></li>
-        <li id="menu" onClick="document.getElementById('experience').scrollIntoView();"><a>Experience</a></li>
-        <li id="menu" onClick="document.getElementById('etc').scrollIntoView();"><a>Etc.</a></li>
+        <li id="menu" onClick="hideShowSections('home_page')"><a>Home</a></li>
+        <li id="menu" onClick="hideShowSections('education')"><a>Education</a></li>
+        <li id="menu" onClick="hideShowSections('publications')"><a>Publications</a></li>
+        <li id="menu" onClick="hideShowSections('experience')"><a>CV</a></li>
+        <li id="menu" onClick="hideShowSections('experience')"><a>Other</a></li>
+
+<!--         <li id="menu" onClick="document.getElementById('etc').scrollIntoView();"><a>Etc.</a></li>
+ -->
 </ul><br><br>
 
 
-<div class="container"  style="padding-top:10px;">
-        <img class="container_image" id="mel_pic" src="mel_pic.jpg" style="width:250px;height:275px;padding-right:30px;"> 
+<div id="home_page" class="container"  style="display:flex; padding-top:10px;">
+        <img class="container_image" id="mel_pic" src="mel_pic.jpg" style="width:400px;height:425px;padding-right:20px;"> 
        
         <div class="container_text" id="name" style="display:right;padding-right:100px;padding-left:10px;">
-                <text style="font-size:35px;padding-bottom:300px;letter-spacing: 2px;"> Melanie Bancilhon </text><br>
-                <text style="font-size:14px;line-height: 25px;">PhD Student</text><br>
+                <text class="my_name" style="color: #777; font-family: 'Helvetica Neue', sans-serif; font-size: 48px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;"> Melanie Bancilhon </text>
+                <br>
+                <br>
+                <p>
+                I'm a second year PhD student working with Dr. Alvitta Ottley in the <text><a style="color: #31ac84;" href="http://visualdata.wustl.edu/"> Visual Data Analytics Group (VDAG)</a></text> 
+                at Washington University in St. Louis. My research interests are at the intersection of visual analytics, human behavior
+                and decision-making. My work focuses on how visualization can be used and adapted to encourage people to make better 
+                decisions.
+
+                <p>
+                Prior to WashU, I graduated from Smith College in 2019 with a B.A. in Computer Science 
+                and Architecture & Design. During my time in college, I spent a year in Paris at Université Paris Diderot and École Nationale Supérieure d'Architecture
+                de Paris Val-de-Seine (ENSAPVS) to explore my passion for art and architecture. I have always been interested in both science and arts, 
+                and enjoy sketching portraits during my free time. 
+                </p>
+<!--                 <text style="font-size:14px;line-height: 25px;">PhD Student</text><br>
                 <text style="font-size:14px;line-height: 25px;">Washington University</text><br>
                 <text style="font-size:14px;line-height: 25px;">Computer Science & Engineering</text><br>
                 <text style="font-size:14px;line-height: 25px;">Visual Data Analytics Group</text><br>
-                <text style="font-size:14px;line-height: 25px;">mbancilhon@wustl.edu</text><br><br> 
-                <a href="https://twitter.com/MelBanci96">
-                        <img src="twitter.png" href="https://www.linkedin.com/in/melaniebancilhon" style="width:25px;height:25px;"> 
-                </a>
-                <a href="https://www.linkedin.com/in/melaniebancilhon">
-                        <img src="linkedin_logo.svg" href="https://twitter.com/MelBanci96" style="width:25px;height:25px;">
-                </a>
+                <text style="font-size:14px;line-height: 25px;">mbancilhon@wustl.edu</text><br><br>  -->
+                <!-- Add font awesome icons -->
+
+
+                <br><br><br><br>
+
+                <a href="mailto:mbancilhon@wustl.edu" class="fa fa-envelope-open"></a>
+                <a href="https://twitter.com/MelBanci96" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/melaniebancilhon" class="fa fa-linkedin"></a>
+                <a href="https://cse.wustl.edu/graduate/programs/Pages/phd-programs.aspx" class="fa fa-university"></a>
+
 
         </div>      
 </div>
 
-<br>
-<hr/>
-<br>
+<div id="education" style="display:none; padding-right:100px;padding-top:20px;">
 
-<div class="container_text" id="bio" style="display:right;padding-right:100px;padding-top:20px;">
-
-        <text style="font-size:28px;padding-top:30px"> Bio </text><br>
-
-        <p>
-        I'm a second year PhD student working with Alvitta Ottley in the <text><a href="http://visualdata.wustl.edu/"> Visual Data Analytics Group (VDAG)</a></text> 
-        at Washington University in St. Louis. My research interests are at the intersection of visual analytics, human behavior
-        and decision-making. My work focuses on how visualization can be used and adapted to encourage people to make better 
-        decisions.
-
-        <p>
-        Prior to WashU, I graduated from Smith College in 2019 with a B.A. in Computer Science 
-        and Architecture & Design. During my time in college, I spent a year in Paris at Université Paris Diderot and École Nationale Supérieure d'Architecture
-        de Paris Val-de-Seine (ENSAPVS) to explore my passion for art and architecture. I have always been interested in both science and arts, 
-        and enjoy sketching portraits during my free time. 
-        </p>
+    <p>
+            <text >2015 -  2019 </text>
+            <div>
+                    <text>B.A. Computer Science ; B.A. Art and Architecture</text><br>
+                    <text style="font-weight:bold;"> Smith College</text><br>
+            </div>  
+    </p>
+    <p>
+            <text>2019 - present </text>
+            <div>
+                    <text> Ph.D. Computer Science and Engineering</text><br>
+                    <text style="font-weight:bold;"> Washington University in St. Louis </text><br>
+            </div>  
+    </p>
 
 </div>
 
-<br>
-<hr/>
-<br>
+<div id="publications" style="display:none; padding-right:100px;padding-top:20px;">
 
-<div id="publications" style="padding-right:100px;padding-top:20px;">
-
-    <text style="font-size:28px;"> Publications </text><br>
+    <text style="font-size:28px;"> Conference Proceedings </text><br>
 
     <p>
     <text style="font-weight:bold;">Let’s Gamble: How a Poor Visualization Can Elicit Risk Behavior</text><br>
     <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Zhengliang Liu, Alvitta Ottley</text><br>
-    <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics</text>
+    <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
+    <a href="" class="fa fa-file">&nbsp;PDF</a>
+
     </p>
 
+
+
+    <p>
+    <text style="font-weight:bold;">Cartographic Design of Cultural Maps</text><text> (under review)</text><br>
+
+    <text>Edyta Paulina Bogucka, Marios Constantinides, Luca Maria Aiello, Daniele Quercia, Wonyoung So, </text><text style="font-weight:bold;">Melanie Bancilhon</text><br>
+    <text style="font-style:italic;">IEEE Transactions on Computer Graphics and Applications, 2020</text>
+
+    </p>  
+
+    <text style="font-size:28px;"> Workshops Papers</text><br>
+    
     <p>
     <text style="font-weight:bold;">Expectation Versus Reality: The Failed Evaluation of a Mixed-Initiative Visualization System</text><br>
     <text>Sunwoo Ha, Adam Kern, </text> <text style="font-weight:bold;">Melanie Bancilhon</text><text>, Alvitta Ottley</text><br>
-    <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics</text>
+    <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
+    <a href="" class="fa fa-file">&nbsp;PDF</a>
 
     </p>   
 
     <p>
     <text style="font-weight:bold;">Did You Get The Gist Of It? Understanding How Visualization Impacts Decision-Making</text><text> (under review)</text><br>
     <text style="font-weight:bold;">Melanie Bancilhon</text><text>, Alvitta Ottley</text><br>
-    <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics</text>
 
-    </p>  
+    <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
+    <a href="" class="fa fa-file">&nbsp;PDF</a>
+
+    </p>   
+    <text style="font-size:28px;"> Poster Presentations</text><br>
+    <p>
+            <text style="font-weight:bold;">Icons are Best: Ranking Visualizations for Proportion Estimation</text><br>
+           <text>Zhengliang Liu, </text> <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Alvitta Ottley </text><br> 
+            IEEE Information Visualization, 2019
+            
+    </p>
+    <a href="" class="fa fa-file">&nbsp;PDF&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<a href="" class="fa fa-play">&nbsp;Video</a>
+
 
 </div>
 
-<br>
-<hr/>
-<br>
 
-<div id="posters" style="padding-right:100px;padding-top:20px;">
+
+<div id="posters" style="display:none; padding-right:100px;padding-top:20px;">
 
         <text style="font-size:28px;"> Workshops & Posters </text><br>
     
@@ -106,17 +146,28 @@
                 IEEE VIS 2019
                 
         </p>
-        
+        <p>
+        <text style="font-weight:bold;">Expectation Versus Reality: The Failed Evaluation of a Mixed-Initiative Visualization System</text><br>
+        <text>Sunwoo Ha, Adam Kern, </text> <text style="font-weight:bold;">Melanie Bancilhon</text><text>, Alvitta Ottley</text><br>
+        <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics</text>
+
+        </p>   
+
+        <p>
+        <text style="font-weight:bold;">Did You Get The Gist Of It? Understanding How Visualization Impacts Decision-Making</text><text> (under review)</text><br>
+        <text style="font-weight:bold;">Melanie Bancilhon</text><text>, Alvitta Ottley</text><br>
+
+        <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics</text>
+
+        </p>   
 </div>
 
-<br>
-<hr/>
-<br>
 
-<div id="experience" style="padding-right:100px;padding-top:20px;">
 
-        <text style="font-size:28px;"> Experience </text><br>
-    
+<div id="experience" style="display:none; padding-right:100px;padding-top:20px;">
+
+<!--         <text style="font-size:28px;"> Experience </text><br>
+ -->    
         <p>
                 <text >June - Sep 2019 </text>
                 <div>
@@ -145,11 +196,9 @@
 
 </div>
 
-<br>
-<hr/>
-<br>
 
-<div id="etc" style="padding-right:100px;padding-top:20px;">
+
+<div id="etc" style=" display:none; padding-right:100px;padding-top:20px;">
 
         <text style="font-size:28px;"> Etc. </text><br><br>
         <img src="drawing1.jpg" style="width:200px;height:250px;"> 
@@ -158,6 +207,34 @@
 
 </div>
 
+<br>
+<hr/>
+<br>
+
+
+
 <br><br>
+
+<script type='text/javascript'>
+function hideShowSections(section){
+    console.log("in hide show")
+    document.getElementById("home_page").style.display="none";
+    document.getElementById("publications").style.display="none";
+    document.getElementById("posters").style.display="none";
+    document.getElementById("experience").style.display="none";
+    document.getElementById("education").style.display="none";
+
+    if (section=="home_page"){
+        document.getElementById(section).style.display="flex";
+
+    }
+    else{
+        document.getElementById(section).style.display="block";
+
+    }
+
+}
+</script>
+
 </body>
 </html>

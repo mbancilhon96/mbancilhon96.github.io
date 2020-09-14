@@ -6,6 +6,37 @@ body {
     margin-right:100px;
 
   }
+       /*=======Publications flex image=========*/
+.flex-container {
+           display: -webkit-flex;
+           display: flex;
+           -webkit-flex-direction: row;
+           flex-direction: row;
+           -webkit-align-items: center;
+           align-items: center;
+           
+           flex-wrap: wrap;
+/*           min-width: 320px;
+           max-width: 1220px;*/
+        }
+        .flex-item {
+            display:flex;
+        align-items: center;
+/*        height: 120px;
+        width: 300px;*/
+/*        background-color: #e46119;
+        border: 1px solid #626262;*/
+/*        margin: 3px;
+        padding: 10px 0 0 10px;*/
+        }
+.flex-item img{
+    flex-grow:0;
+    flex-shrink:0;
+}
+        span {
+            padding-left: 5px;
+        }
+
       /*=======Contact icons=========*/
 
 .fa {
@@ -18,10 +49,10 @@ body {
 }
 /*Small icons */
 .fa-file{
-  padding: 5px;
+  padding: 2px;
   font-size: 15px;
-  width: 15px;
-  text-align: center;
+  width: 140px;
+  text-align: left;
   text-decoration: none;
   color: #31ac84;
 

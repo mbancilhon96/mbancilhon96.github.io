@@ -32,25 +32,13 @@
                 <text class="my_name" style="color: #777; font-family: 'Helvetica Neue', sans-serif; font-size: 48px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;"> Melanie Bancilhon </text>
                 <br>
                 <br>
-                <p>
-                I'm a second year PhD student working with Dr. Alvitta Ottley in the <text><a style="color: #31ac84;" href="http://visualdata.wustl.edu/"> Visual Data Analytics Group (VDAG)</a></text> 
-                at Washington University in St. Louis. My research interests are at the intersection of visual analytics, human behavior
+                <p style="line-height: 2">
+                I am a second year CSE PhD student at <a style="color: #31ac84;" href="https://cse.wustl.edu/index.html">Washington University in St. Louis</a> working with Dr. Alvitta Ottley in the <text><a style="color: #31ac84;" href="http://visualdata.wustl.edu/"> Visual Data Analytics Group (VDAG)</a></text> 
+                at Washington University in St. Louis. I received my Bachelor of Arts in Computer Science and Architecture & Design at Smith College in Northampton, Massachusetts. 
+                My main research interests are at the intersection of visual analytics, human behavior
                 and decision-making. My work focuses on how visualization can be used and adapted to encourage people to make better 
                 decisions.
-
                 <p>
-                Prior to WashU, I graduated from Smith College in 2019 with a B.A. in Computer Science 
-                and Architecture & Design. During my time in college, I spent a year in Paris at Université Paris Diderot and École Nationale Supérieure d'Architecture
-                de Paris Val-de-Seine (ENSAPVS) to explore my passion for art and architecture. I have always been interested in both science and arts, 
-                and enjoy sketching portraits during my free time. 
-                </p>
-<!--                 <text style="font-size:14px;line-height: 25px;">PhD Student</text><br>
-                <text style="font-size:14px;line-height: 25px;">Washington University</text><br>
-                <text style="font-size:14px;line-height: 25px;">Computer Science & Engineering</text><br>
-                <text style="font-size:14px;line-height: 25px;">Visual Data Analytics Group</text><br>
-                <text style="font-size:14px;line-height: 25px;">mbancilhon@wustl.edu</text><br><br>  -->
-                <!-- Add font awesome icons -->
-
 
                 <br><br><br><br>
 
@@ -63,20 +51,27 @@
         </div>      
 </div>
 
-<div id="education" style="display:none; padding-right:100px;padding-top:20px;">
+<div class="flex-container" id="education" style="display:none; padding-right:100px;padding-top:20px;">
 
     <p>
-            <div>
+            <div class="flex-item"> 
+                    <img class="container_image" id="washu_logo" src="washu_logo.png" style="width:100px; height:100px;padding-right:20px;">
+
+                    <span>
                     <text> Ph.D. Computer Science and Engineering</text><br>
                     <text style="font-weight:bold;"> Washington University in St. Louis </text><br>
                     <text>2019 - present </text>
-
+                    <span>
             </div>  
             <br><br>
-            <div>
+            <div class="flex-item">
+                    <img class="container_image" id="smith_logo" src="smith.png" style="width:100px; height:100px;padding-right:20px;">
+
+                    <span>
                     <text>B.A. Computer Science ; B.A. Art and Architecture</text><br>
                     <text style="font-weight:bold;"> Smith College</text><br>
                      <text >2015 -  2019 </text>
+                    <span>
 
             </div>  
     </p>
@@ -86,93 +81,97 @@
 
 </div>
 
-<div id="publications" style="display:none; padding-right:100px;padding-top:20px;">
+<div class="flex-container" id="publications" style="display:none; padding-right:100px;padding-top:20px;">
 
     <text style="font-size:28px;"> Conference Proceedings </text><br>
 
-    <p>
-    <text style="font-weight:bold;">Let’s Gamble: How a Poor Visualization Can Elicit Risk Behavior</text><br>
-    <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Zhengliang Liu, Alvitta Ottley</text><br>
-    <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
-    <a href="" class="fa fa-file">&nbsp;PDF</a>
+    <div class="flex-item">
+        <img class="container_image" id="gamble_teaser" src="gamble_teaser.png" style="width:250px; height:200px;padding-right:20px;">
+        <span>
+            <text style="font-weight:bold;">Let’s Gamble: How a Poor Visualization Can Elicit Risk Behavior</text><text> (in print)</text><br>
+            <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Zhengliang Liu, Alvitta Ottley</text><br>
+            <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
+            <a href="./VIS2020_short_paper.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
+            <a href="https://youtu.be/cux0EZ6vifo" target="_blank" class="fa fa-play">Video</a>
+        <span>
 
-    </p>
+        </p>
+    </div>
 
+    <div class="flex-item">
+        <img class="container_image" id="interaction_teaser" src="interaction_teaser.png" style="width:250px; height:200px;padding-right:20px;">
+        <span>
+            <text style="font-weight:bold;">Uncovering User Interest during Data Exploration via Unsupervised Clustering</text><text> (in submission)</text><br>
+            <text>Sunwoo Ha, Robert Costales, </text><text style="font-weight:bold;">Melanie Bancilhon,</text><text> Surina Puri, Alvitta Ottley</text>
+            <br>
+            <text style="font-style:italic;">ACM CHI Conference on Human Factors in Computing Systems, 2020</text><br>
+            <a href="" class="fa fa-file">&nbsp;PDF</a>
+        </span>
+    </div>
 
+    <div class="flex-item">
+       <img class="container_image" id="nokia_teaser" src="nokia_teaser.png" style="width:250px; height:200px;padding-right:20px;">
+        <span>
+            <text style="font-weight:bold;">Cartographic Design of Cultural Maps</text><text> (under review)</text><br>
+            <text>Edyta Paulina Bogucka, Marios Constantinides, Luca Maria Aiello, Daniele Quercia, Wonyoung So, </text><text style="font-weight:bold;">Melanie Bancilhon</text><br>
+            <text style="font-style:italic;">IEEE Transactions on Computer Graphics and Applications, 2020</text><br>
+            <a href="" class="fa fa-file">&nbsp;PDF Coming Soon&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<a href="http://www.lajello.com/files/movies/pk_melanie.MP4" class="fa fa-play">Video</a>
+        </span>
+    </div>
 
-    <p>
-    <text style="font-weight:bold;">Cartographic Design of Cultural Maps</text><text> (under review)</text><br>
-
-    <text>Edyta Paulina Bogucka, Marios Constantinides, Luca Maria Aiello, Daniele Quercia, Wonyoung So, </text><text style="font-weight:bold;">Melanie Bancilhon</text><br>
-    <text style="font-style:italic;">IEEE Transactions on Computer Graphics and Applications, 2020</text><br>
-    <a href="" class="fa fa-file">&nbsp;PDF&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<a href="http://www.lajello.com/files/movies/pk_melanie.MP4" class="fa fa-play">&nbsp;Video</a>
-    </p>  
+    <br><br>
 
     <text style="font-size:28px;"> Workshops Papers</text><br>
-    
-    <p>
-    <text style="font-weight:bold;">Expectation Versus Reality: The Failed Evaluation of a Mixed-Initiative Visualization System</text><br>
-    <text>Sunwoo Ha, Adam Kern, </text> <text style="font-weight:bold;">Melanie Bancilhon</text><text>, Alvitta Ottley</text><br>
-    <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
-    <a href="" class="fa fa-file">&nbsp;PDF</a>
+    <br><br><br>
 
-    </p>   
-
-    <p>
-    <text style="font-weight:bold;">Did You Get The Gist Of It? Understanding How Visualization Impacts Decision-Making</text><text> (under review)</text><br>
-    <text style="font-weight:bold;">Melanie Bancilhon</text><text>, Alvitta Ottley</text><br>
-
-    <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
-    <a href="" class="fa fa-file">&nbsp;PDF</a>
-
-    </p>   
-    <text style="font-size:28px;"> Poster Presentations</text><br>
-    <p>
-            <text style="font-weight:bold;">Icons are Best: Ranking Visualizations for Proportion Estimation</text><br>
-           <text>Zhengliang Liu, </text> <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Alvitta Ottley </text><br> 
-            IEEE Information Visualization, 2019
-            
-    </p>
-    <a href="" class="fa fa-file">&nbsp;PDF&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<a href="" class="fa fa-play">&nbsp;Video</a>
-
-
-</div>
-
-
-
-<div id="posters" style="display:none; padding-right:100px;padding-top:20px;">
-
-        <text style="font-size:28px;"> Workshops & Posters </text><br>
-    
-        <p>
-                <text style="font-weight:bold;">Icons are Best: Ranking Visualizations for Proportion Estimation</text><br>
-               <text>Zhengliang Liu, </text> <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Alvitta Ottley </text><br> 
-                IEEE VIS 2019
-                
-        </p>
-        <p>
-        <text style="font-weight:bold;">Expectation Versus Reality: The Failed Evaluation of a Mixed-Initiative Visualization System</text><br>
-        <text>Sunwoo Ha, Adam Kern, </text> <text style="font-weight:bold;">Melanie Bancilhon</text><text>, Alvitta Ottley</text><br>
-        <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics</text>
-
-        </p>   
-
-        <p>
-        <text style="font-weight:bold;">Did You Get The Gist Of It? Understanding How Visualization Impacts Decision-Making</text><text> (under review)</text><br>
+    <div class="flex-item">
+        <img class="container_image" id="gist_teaser" src="gist_teaser.png" style="width:250px; height:200px;padding-right:20px;">
+        <span>
+        <text style="font-weight:bold;">Did You Get The Gist Of It? Understanding How Visualization Impacts Decision-Making</text><text> (in print)</text><br>
         <text style="font-weight:bold;">Melanie Bancilhon</text><text>, Alvitta Ottley</text><br>
 
-        <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics</text>
+        <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
+        <a href="" class="fa fa-file">&nbsp;PDF</a>
 
-        </p>   
+        </span>
+    </div>
+
+    <div class="flex-item">
+        <img class="container_image" id="failfest_teaser" src="failfest_teaser.png" style="width:250px; height:200px;padding-right:20px;">
+        <span>
+        <text style="font-weight:bold;">Expectation Versus Reality: The Failed Evaluation of a Mixed-Initiative Visualization System</text><text> (in print)</text><br>
+        <text>Sunwoo Ha, Adam Kern, </text> <text style="font-weight:bold;">Melanie Bancilhon</text><text>, Alvitta Ottley</text><br>
+        <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
+        <a href="" class="fa fa-file">&nbsp;PDF</a>
+        </span>   
+    </div>
+
+
+    <br><br>
+
+    <text style="font-size:28px;"> Poster Presentations</text><br>
+    <br><br><br>
+
+    <div class="flex-item">
+        <img class="container_image" id="poster_teaser" src="poster_teaser.png" style="width:250px; height:200px;padding-right:20px;">
+
+        <span>
+                <text style="font-weight:bold;">Icons are Best: Ranking Visualizations for Proportion Estimation</text><br>
+               <text>Zhengliang Liu, </text> <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Alvitta Ottley </text><br> 
+                <text style="font-style:italic;">IEEE Information Visualization, 2019</text><br>
+                <a href="./poster.pdf" target="_blank" class="fa fa-file">&nbsp;PDF&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        </span>
+    </div>
+
+
 </div>
-
 
 
 <div id="experience" style="display:none; padding-right:100px;padding-top:20px;">
 
 <!--         <text style="font-size:28px;"> Experience </text><br>
  -->    
-        <p>
+<!--         <p>
                 <text >June - Sep 2019 </text>
                 <div>
                         <text>Visual Data Analytics Group</text><br>
@@ -196,7 +195,7 @@
                         <text style="font-weight:bold;"> Nokia Bell Labs, Cambridge UK</text><br>
                         <text> Uncovered Spatial and Temporal Patterns in Street Naming Conventions</text><br>
                 </div>  
-        </p>
+        </p> -->
 
 </div>
 
@@ -231,7 +230,7 @@ function hideShowSections(section){
     console.log("in hide show")
     document.getElementById("home_page").style.display="none";
     document.getElementById("publications").style.display="none";
-    document.getElementById("posters").style.display="none";
+    // document.getElementById("posters").style.display="none";
     document.getElementById("experience").style.display="none";
     document.getElementById("education").style.display="none";
     document.getElementById("CV").style.display="none";

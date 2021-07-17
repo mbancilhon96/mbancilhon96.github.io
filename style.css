@@ -89,7 +89,7 @@ body {
     position: -webkit-sticky; /* Safari */
    position: sticky;
    top: 0;
-    padding-left:300px;
+    padding-left:50px;
 
 /*    outline-style: solid;
     outline-color:grey;

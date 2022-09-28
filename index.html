@@ -10,13 +10,13 @@
 
 <body>
 
-<div id="top"></div>
+<div id="top" style="padding-left:100px;"></div>
 
-<ul id="menu">
+<ul id="menu" style="padding-left:22%;padding-right:15%;">
 
-        <li id="menu" onClick="hideShowSections('home_page')"><a>Home</a></li>
-        <li id="menu" onClick="hideShowSections('education')"><a>Education</a></li>
-        <li id="menu" onClick="hideShowSections('publications')"><a>Publications</a></li>
+        <li id="menu" onClick="hideShowSections('home_page')"><a style="color: #31ac84;">M. Bancilhon</a></li>
+<!--         <li id="menu" onClick="hideShowSections('education')"><a>Education</a></li>
+ -->    <li id="menu" onClick="hideShowSections('publications')"><a>Publications</a></li>
         <li id="menu" onClick="hideShowSections('CV')"><a>CV</a></li>
         <li id="menu" onClick="hideShowSections('talks')"><a>Talks & Outreach</a></li>
         <li id="menu" onClick="hideShowSections('awards')"><a>Awards</a></li>
@@ -25,13 +25,16 @@
  -->
 <!--         <li id="menu" onClick="document.getElementById('etc').scrollIntoView();"><a>Etc.</a></li>
  -->
-</ul><br><br>
 
+</ul>
+<hr class="solid">
+<br>
 
-<div id="home_page" class="container"  style="display:flex; padding-top:10px;">
+<div id="image" class="container"  style="padding-left:20%;padding-right:15%;display:flex; padding-top:0px;">
+    <div>
         <figure>
-            <img class="container_image" id="mel_pic" src="mel_pic3.jpg" style="width:300px;height:325px;padding-right:20px;"> 
-            <figcaption style="font-size: 14px">
+            <img class="container_image" id="mel_pic" src="mel_pic4.jpg" style="width:400px;height:auto;padding-right:0px;"> 
+<!--             <figcaption style="font-size: 14px">
                     <p style="line-height:0.5em;">PhD Student</p>
                     <p style="line-height:0.5em;">Washington University in St. Louis</p>
                     <p style="line-height:0.5em;">Computer Science</p>
@@ -42,22 +45,111 @@
                     <a href="https://www.linkedin.com/in/melaniebancilhon" class="fa fa-linkedin"></a>
                     <a href="https://cse.wustl.edu/graduate/programs/Pages/phd-programs.aspx" class="fa fa-university"></a>
 
-            </figcaption>
+            </figcaption> -->
         </figure>
-        <div class="container_text" id="name" style="display:right;padding-right:100px;padding-left:10px;padding-top:20px;">
-                <text class="my_name" style="color: #777; font-family: 'Helvetica Neue', sans-serif; font-size: 48px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;"> Melanie Bancilhon </text>
+    </div>
+    <div style="padding-top:10px;">
+        <p style="">PhD Candidate</p>
+        <p style="">Washington University in St. Louis</p>
+        <p style="">Computer Science</p>
+        <p style="">mbancilhon@wustl.edu</p>
+        <br>
+        <a href="mailto:mbancilhon@wustl.edu" class="fa fa-envelope-open"></a>
+        <a href="https://twitter.com/MelBanci96" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/melaniebancilhon" class="fa fa-linkedin"></a>
+        <a href="https://cse.wustl.edu/graduate/programs/Pages/phd-programs.aspx" class="fa fa-university"></a>
+    </div>
+
+</div>
+
+
+<div id="home_page" class="container"  style="padding-left:22%;padding-right:20%; padding-top:0px;">
+
+        <div class="container_text" id="name" style="display:right;padding-left:10px;padding-top:10px;">
+                <text class="my_name" style="color: black; font-family: 'Helvetica Neue', sans-serif; font-size: 48px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;"> Melanie Bancilhon </text>
                 <br>
                 <br>
                 <p style="line-height: 2">
-                I am a third year CSE PhD student at <a style="color: #31ac84;" href="https://cse.wustl.edu/index.html">Washington University in St. Louis</a> working with Dr. Alvitta Ottley in the <text><a style="color: #31ac84;" href="http://visualdata.wustl.edu/"> Visual Data Analytics Group (VDAG)</a></text> 
-                at Washington University in St. Louis. I received my Bachelor of Arts in Computer Science and Architecture & Design at Smith College in Northampton, Massachusetts. 
-                My main research interests are at the intersection of visual analytics, human behavior
-                and decision-making. My work focuses on understanding how visual encodings affect decisions across different types of populations with the goal of leveraging visualizations to optimize decision-making.
+                I am a fourth year CSE PhD Candidate at <a style="color: #31ac84;" href="https://cse.wustl.edu/index.html">Washington University in St. Louis</a> working with Dr. Alvitta Ottley in the <text><a style="color: #31ac84;" href="http://visualdata.wustl.edu/"> Visual Data Analytics Group (VDAG)</a></text>. Prior to WashU, I completed my B.A. in Computer Science at Smith College with Architecture & Design as a second major. 
+                My primary research interests are at the intersection of visual analytics, decision-making under risk and explainable AI. I examine how data communication techniques and visualization impact perception, reasoning and decisions. 
                 <p>
 
                 <br>
 
-                <h3>Features</h3>
+         <h3>Latest Research</h3>
+                <div class="flex-item">
+                    <img class="container_image" id="cognitive_bayesian" src="cognitive_bayesian.png" style="width:250px; height:200px;padding-right:20px;">
+                    <span>
+                        <text style="font-weight:bold;">Why Combining Text and Visualization Could Improve Bayesian Reasoning: A Cognitive Load Perspective</text> <text> (in submission) </text><br>
+                        <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>AJ Wright, Sunwoo Ha, Jordan Crouser, Alvitta Ottley</text><br>
+            <!--             <text style="font-style:italic;">PLoS ONE 16(6): e0252869, 2021</text><br>
+             --><!--             <a href="./plosOne_streetnames.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
+             -->
+                    <span>
+
+                        </p>
+                </div>
+
+                <div class="flex-item">
+                    <img class="container_image" id="nokia_streetmaps" src="plosOne_streetnames.png" style="width:250px; height:200px;padding-right:20px;">
+                    <span>
+                        <text style="font-weight:bold;">Streetonomics: Quantifying culture using street names</text><br>
+                        <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Marios Constantinides, EP Bogucka, Luca Maria Aiello, Daniele Quercia</text><br>
+                        <text style="font-style:italic;">PLoS ONE 16(6): e0252869, 2021</text><br>
+                        <a href="./plosOne_streetnames.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
+
+                    <span>
+
+                    </p>
+                </div>
+
+                <div class="flex-item">
+                    <img class="container_image" id="ashwin" src="ashwin.png" style="width:250px; height:200px;padding-right:20px;">
+                    <span>
+                        <text style="font-weight:bold;">VizXP: A Visualization Framework for Conveying Explanations to Users in Model Reconciliation Problems</text><text> (in print)</text><br>
+                        <text>Ashwin Kumar, Stylianos Loukas Vasileiou, </text><text style="font-weight:bold;">Melanie Bancilhon,</text> <text>William Yeoh, Alvitta Ottley</text> <br>
+                        <text style="font-style:italic;">ICAPS Conference on Automated Planning and Scheduling, 2021</text><br>
+                    <span>
+
+                    </p>
+                </div>
+
+                <div class="flex-item">
+                    <img class="container_image" id="gamble_teaser" src="gamble_teaser.png" style="width:250px; height:200px;padding-right:20px;">
+                    <span>
+                        <text style="font-weight:bold;">Let’s Gamble: How a Poor Visualization Can Elicit Risk Behavior</text><text> </text><br>
+                        <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Zhengliang Liu, Alvitta Ottley</text><br>
+                        <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
+                        <a href="./VIS2020_short_paper.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
+                        <a href="https://youtu.be/cux0EZ6vifo" target="_blank" class="fa fa-play">Video</a>
+                    <span>
+
+                    </p>
+                </div>
+
+                <div class="flex-item">
+                    <img class="container_image" id="interaction_teaser" src="interaction_teaser.png" style="width:250px; height:200px;padding-right:20px;">
+                    <span>
+                        <text style="font-weight:bold;">Uncovering User Interest during Data Exploration via Unsupervised Clustering</text><text> (under review)</text><br>
+                        <text>Sunwoo Ha, Robert Costales, </text><text style="font-weight:bold;">Melanie Bancilhon,</text><text> Surina Puri, Alvitta Ottley</text>
+                        <br>
+                        <text style="font-style:italic;">ACM CHI Conference on Human Factors in Computing Systems, 2020</text><br>
+                        <a href="./jen_chi.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
+                    </span>
+                </div>
+
+                <div class="flex-item">
+                   <img class="container_image" id="nokia_teaser" src="nokia_teaser.png" style="width:250px; height:200px;padding-right:20px;">
+                    <span>
+                        <text style="font-weight:bold;">Cartographic Design of Cultural Maps</text><text> (in print)</text><br>
+                        <text>Edyta Paulina Bogucka, Marios Constantinides, Luca Maria Aiello, Daniele Quercia, Wonyoung So, </text><text style="font-weight:bold;">Melanie Bancilhon</text><br>
+                        <text style="font-style:italic;">IEEE Transactions on Computer Graphics and Applications, 2020</text><br>
+                        <a href="./street_names.pdf" target="_blank" class="fa fa-file">&nbsp;PDF&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<a href="http://www.lajello.com/files/movies/pk_melanie.MP4" target="_blank" class="fa fa-play">Video</a>
+                    </span>
+                </div>
+                <br>
+                <h3>Selected Press</h3>
+                <br>
                     <div class="flex-item"> 
                         <img class="container_image" id="washu_logo" src="street_pic.jpg" style="width:250px; height:150px;padding-right:20px;">
                         <span>
@@ -80,7 +172,7 @@
  
 </div>
 
-<div class="flex-container" id="education" style="display:none; padding-right:100px;padding-top:20px;">
+<div class="flex-container" id="education" style="display:none; padding-left:22%;padding-right:20%;padding-top:20px;">
 
     <p>
             <div class="flex-item"> 
@@ -110,7 +202,7 @@
 
 </div>
 
-<div class="flex-container" id="publications" style="display:none; padding-right:100px;padding-top:20px;">
+<div class="flex-container" id="publications" style="display:none; padding-left:22%;padding-right:20%;padding-top:20px;">
 
     <text style="font-size:28px;"> Conference Proceedings </text><br>
 
@@ -118,7 +210,7 @@
     <div class="flex-item">
         <img class="container_image" id="cognitive_bayesian" src="cognitive_bayesian.png" style="width:250px; height:200px;padding-right:20px;">
         <span>
-            <text style="font-weight:bold;">A Cognitive Load Perspective on the Impact of Visualization on Bayesian Reasoning</text> <text> (in submission) </text><br>
+            <text style="font-weight:bold;">Why Combining Text and Visualization Could Improve Bayesian Reasoning: A Cognitive Load Perspective</text> <text> (in submission) </text><br>
             <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>AJ Wright, Sunwoo Ha, Jordan Crouser, Alvitta Ottley</text><br>
 <!--             <text style="font-style:italic;">PLoS ONE 16(6): e0252869, 2021</text><br>
  --><!--             <a href="./plosOne_streetnames.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
@@ -280,19 +372,19 @@
 
 </div>
 
-<div id="CV" style=" display:none; padding-right:100px;padding-top:20px;">
+<div id="CV" style=" display:none; padding-left:22%;padding-right:20%;padding-top:20px;">
     <a style="color:#31ac84;" class="text-center" href="./Bancilhon_CV_3.pdf" target="_blank">Click to Download CV</a>
     <embed src="./Bancilhon_CV_3.pdf" type="application/pdf" width="100%" height="800px">
 </div>
 
-<div id="awards" style=" display:none; padding-right:100px;padding-top:20px;">
+<div id="awards" style=" display:none;padding-left:22%;padding-right:20%;padding-top:20px;">
 	<text style="font-weight:bold;">NSF Smart Health & AI Student Awardee</text> <text>2020</text><br><br>
 	<text style="font-weight:bold;">Sigma Xi Awardee</text> <text>2019</text><br><br>
     <text style="font-weight:bold;">Grace Hopper Scholar</text> <text>2018</text>
 
 </div>
 
-<div id="talks" style=" display:none; padding-right:100px;padding-top:20px;">
+<div id="talks" style=" display:none; padding-left:22%;padding-right:20%;padding-top:20px;">
     <text style="font-weight:bold;">Conference Organizing</text><br>
         <text>Student Committee Member, IEEE Visualization Communication (VisComm), </text><text style="font-style:italic;">2021</text><br><br> 
 
@@ -318,7 +410,7 @@
 
 <br>
 <br>
-<div id="etc" style=" display:none; padding-right:100px;padding-top:20px;">
+<div id="etc" style=" display:none; padding-left:22%;padding-right:20%;padding-top:20px;">
 
         <text style="font-size:28px;"> Etc. </text><br><br>
         <img src="drawing1.jpg" style="width:200px;height:250px;"> 

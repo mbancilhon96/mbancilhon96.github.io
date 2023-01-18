@@ -1,0 +1,77 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "97b0989d-ab3c-8b0b-f1h3-cb4be9baaac",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "This agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least twelve (12) months' prior written notice to expire on or after the expiry date of the initial term.",
+    "target": {
+        "source": "FuseMedicalInc",
+        "selector": {
+            "node": {
+                "index": 9
+            },
+            "quadPoints": [
+                125.55685814771395,
+                672.6884791644463,
+                544.7138441862944,
+                672.6884791644463,
+                125.55685814771395,
+                660.6400937866354,
+                544.7138441862944,
+                660.6400937866354,
+                125.55685814771395,
+                660.0059682404349,
+                216.23681125439626,
+                660.0059682404349,
+                125.55685814771395,
+                647.9575828626239,
+                216.23681125439626,
+                647.9575828626239,
+                216.23681125439626,
+                660.0059682404349,
+                265.06447831184056,
+                660.0059682404349,
+                216.23681125439626,
+                647.9575828626239,
+                265.06447831184056,
+                647.9575828626239,
+                265.06447831184056,
+                660.0059682404349,
+                544.7138441862944,
+                660.0059682404349,
+                265.06447831184056,
+                647.9575828626239,
+                544.7138441862944,
+                647.9575828626239,
+                125.55685814771395,
+                647.3234573164233,
+                479.39891292763514,
+                647.3234573164233,
+                125.55685814771395,
+                635.2750719386124,
+                479.39891292763514,
+                635.2750719386124
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [
+                125.55685814771395,
+                672.6884791644463,
+                479.39891292763514,
+                635.2750719386124
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "id": "Guest",
+        "name": "Guest",
+        "type": "Person"
+    },
+    "created": "2022-11-18T22:02:47Z",
+    "modified": "2022-11-18T22:02:47Z"
+}

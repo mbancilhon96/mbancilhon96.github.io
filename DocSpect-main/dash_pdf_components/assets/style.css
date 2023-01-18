@@ -1,0 +1,61 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Variables
+- Navbar Styling
+- PDF Viewer
+- PDF Panel
+
+*/
+
+/* Variables
+__________________________________________________ */
+:root {
+  --main-text-color: #4b4b4b;
+  --annotation-color: rgba(0, 151, 0, 0.5); 
+  --item-hover: #F0F0F0;
+  --line-divider-color: #e2e2e2;
+  --navbar-height: 45px;
+  --btnload-height: 30px;
+}
+
+
+
+/* Navbar Styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.navbar-logo-row {
+  text-decoration: none;
+  padding: 0;
+}
+
+#navbar-container {
+  margin-left: 0px;
+  margin-right: 0px;
+  height: var(--navbar-height);
+}
+
+#col-logo {
+  position: relative;
+  height: 50px;
+  padding: 2em;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+/* PDF Viewer
+__________________________________________________ */
+.pdf-view-container {
+  height: calc(100vh - 61px - 38px -240px);
+  width: 100%;
+}
+
+/* PDF Panel
+__________________________________________________ */
+.accordion-item {
+  border: none;
+}
+
+.stack-annotation-container {
+  padding-left: 12px;
+  padding-right: 12px;
+}

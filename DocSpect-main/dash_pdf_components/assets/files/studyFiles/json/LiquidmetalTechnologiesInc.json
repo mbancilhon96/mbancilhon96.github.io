@@ -1,0 +1,62 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "68a484b8-edf4-8925-8eh8-ca1a9bb39bb",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Either Party may terminate this Agreement for any reason upon providing 180 days prior written notice to the other Party prior to the expiration of the then-current term or unless sooner terminated in accordance with the terms of this Agreement.",
+    "target": {
+        "source": "LiquidmetalTechnologiesInc",
+        "selector": {
+            "node": {
+                "index": 10
+            },
+            "quadPoints": [
+                218.34862385321102,
+                509.51459549624684,
+                538.7823185988324,
+                509.51459549624684,
+                218.34862385321102,
+                499.5896580483736,
+                538.7823185988324,
+                499.5896580483736,
+                116.9724770642202,
+                498.8807339449541,
+                538.7823185988324,
+                498.8807339449541,
+                116.9724770642202,
+                489.6647206005004,
+                538.7823185988324,
+                489.6647206005004,
+                116.9724770642202,
+                488.9557964970809,
+                199.91659716430362,
+                488.9557964970809,
+                116.9724770642202,
+                479.7397831526271,
+                199.91659716430362,
+                479.7397831526271
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                116.9724770642202,
+                479.7397831526271,
+                538.7823185988324,
+                509.51459549624684
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T17:07:59Z",
+    "modified": "2022-11-07T17:07:59Z"
+}

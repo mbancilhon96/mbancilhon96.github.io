@@ -1,0 +1,57 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "e3b2961a-c1d1-861d-2eh1-69187bb6b8c",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Unless either party gives written notice of termination of this Agreement at least 60 days prior to the end of the Initial Term, or any successive three-year term, this Agreement shall automatically renew for successive additional three-year terms; provided, however, that this Agreement shall automatically terminate upon the dissolution of the client",
+    "target": {
+        "source": "BLACKSTONEGSOLONG-SHORTCREDITINCOMEFUND",
+        "selector": {
+            "node": {
+                "index": 1
+            },
+            "quadPoints": [
+                152.6728439059159,
+                686.6765858873841,
+                542.8367783321454,
+                686.6765858873841,
+                152.6728439059159,
+                677.1345331432644,
+                542.8367783321454,
+                677.1345331432644,
+                49.830719885958665,
+                676.6044191019245,
+                535.9452957947257,
+                676.6044191019245,
+                49.830719885958665,
+                667.0623663578046,
+                535.9452957947257,
+                667.0623663578046,
+                49.830719885958665,
+                666.5322523164647,
+                327.61047754811125,
+                666.5322523164647,
+                49.830719885958665,
+                656.990199572345,
+                327.61047754811125,
+                656.990199572345
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [49.830719885958665, 656.990199572345, 542.8367783321454, 686.6765858873841],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-18T19:58:02Z",
+    "modified": "2022-11-18T19:58:02Z"
+}

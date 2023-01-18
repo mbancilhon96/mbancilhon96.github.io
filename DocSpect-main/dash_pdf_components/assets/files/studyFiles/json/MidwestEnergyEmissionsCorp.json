@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "32a1ae11-ba1d-8b5a-4dh8-2afa5b83aaa",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "COMPANY may, in its unfettered discretion, terminate this Agreement at any time after first giving CONTENT PROVIDER ten (10) days advance notice thereof.",
+    "target": {
+        "source": "MidwestEnergyEmissionsCorp",
+        "selector": {
+            "node": {
+                "index": 3
+            },
+            "quadPoints": [
+                133.9866555462886,
+                357.09591326105084,
+                517.5145954962469,
+                357.09591326105084,
+                133.9866555462886,
+                345.04420350291906,
+                517.5145954962469,
+                345.04420350291906,
+                133.9866555462886,
+                344.33527939949954,
+                375.7297748123437,
+                344.33527939949954,
+                133.9866555462886,
+                332.28356964136776,
+                375.7297748123437,
+                332.28356964136776
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                133.9866555462886,
+                332.28356964136776,
+                517.5145954962469,
+                357.09591326105084
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T17:09:36Z",
+    "modified": "2022-11-07T17:09:36Z"
+}

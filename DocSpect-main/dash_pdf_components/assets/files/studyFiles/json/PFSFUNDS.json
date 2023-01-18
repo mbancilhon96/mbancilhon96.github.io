@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "308a94c3-d99b-8a44-33h8-a8fb5ba2b90",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "This Agreement may be terminated without the payment of any penalty by either party upon sixty (60) days’ written notice to the other party",
+    "target": {
+        "source": "PFSFUNDS",
+        "selector": {
+            "node": {
+                "index": 1
+            },
+            "quadPoints": [
+                125.4795663052544,
+                244.37698081734777,
+                542.32693911593,
+                244.37698081734777,
+                125.4795663052544,
+                234.4520433694745,
+                542.32693911593,
+                234.4520433694745,
+                50.33361134278566,
+                233.74311926605492,
+                136.82235195996665,
+                233.74311926605492,
+                50.33361134278566,
+                224.52710592160122,
+                136.82235195996665,
+                224.52710592160122
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                50.33361134278566,
+                224.52710592160122,
+                542.32693911593,
+                244.37698081734777
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T17:14:27Z",
+    "modified": "2022-11-07T17:14:27Z"
+}

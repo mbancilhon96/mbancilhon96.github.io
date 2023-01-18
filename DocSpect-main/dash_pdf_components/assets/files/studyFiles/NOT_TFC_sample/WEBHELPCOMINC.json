@@ -1,0 +1,93 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "3ab2830f-d9d3-8c9d-ebh2-98d969a0b95",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": " This Agreement shall continue in effect from the Effective Date for a one (1) year period, unless earlier terminated as set forth below, and thereafter shall renew automatically for successive one (1) year periods unless either party gives the other party at least thirty (30) days prior written notice of its intent not to renew the Agreement. In addition, either party may terminate this Agreement by giving to the other party written notice",
+    "target": {
+        "source": "WEBHELPCOMINC",
+        "selector": {
+            "node": {
+                "index": 2
+            },
+            "quadPoints": [
+                150.921879995737,
+                502.74283278269206,
+                344.3301715869125,
+                502.74283278269206,
+                150.921879995737,
+                495.13332622828517,
+                344.3301715869125,
+                495.13332622828517,
+                13.316636470212087,
+                495.13332622828517,
+                348.76905041031654,
+                495.13332622828517,
+                13.316636470212087,
+                487.5238196738783,
+                348.76905041031654,
+                487.5238196738783,
+                13.316636470212087,
+                487.5238196738783,
+                339.8912927635085,
+                487.5238196738783,
+                13.316636470212087,
+                479.2801875732708,
+                339.8912927635085,
+                479.2801875732708,
+                13.316636470212087,
+                479.9143131194714,
+                357.01268251092404,
+                479.9143131194714,
+                13.316636470212087,
+                471.6706810188639,
+                357.01268251092404,
+                471.6706810188639,
+                13.316636470212087,
+                472.30480656506444,
+                336.086539486305,
+                472.30480656506444,
+                13.316636470212087,
+                464.061174464457,
+                336.086539486305,
+                464.061174464457,
+                13.316636470212087,
+                464.061174464457,
+                348.76905041031654,
+                464.061174464457,
+                13.316636470212087,
+                456.45166791005005,
+                348.76905041031654,
+                456.45166791005005,
+                13.316636470212087,
+                456.45166791005005,
+                39.31578386443569,
+                456.45166791005005,
+                13.316636470212087,
+                448.84216135564316,
+                39.31578386443569,
+                448.84216135564316
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [
+                150.921879995737,
+                502.74283278269206,
+                39.31578386443569,
+                448.84216135564316
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "id": "Guest",
+        "name": "Guest",
+        "type": "Person"
+    },
+    "created": "2022-11-18T22:11:39Z",
+    "modified": "2022-11-18T22:11:39Z"
+}

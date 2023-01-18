@@ -1,0 +1,5 @@
+ContractID,EndUser,Region,revenue,fiscalYear,TFC,tfc_confidence, group
+DR111,Bank of America, AMEA,300,2021,N,0.6,1
+DR222,Microsoft,AMEA,550,2021,Y,0.6,2
+DR333,Under Armour Inc, AMEA,500,2021,Y,0.75,3
+DR999,Home Depot Inc, Americas,1000,2022,Y,0.7,2

@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "5db0816f-eaf1-8d15-dfh3-8a982884bad",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "This Agreement may be terminated, either in respect of a Fund or in its entirety, by either Oaktree US or the Sub-Advisor for any reason upon 30 days' written notice to the other.",
+    "target": {
+        "source": "OAKTREECAPITALGROUP",
+        "selector": {
+            "node": {
+                "index": 5
+            },
+            "quadPoints": [
+                51.75145954962469,
+                679.6563803169307,
+                545.1626355296081,
+                679.6563803169307,
+                51.75145954962469,
+                671.1492910758966,
+                545.1626355296081,
+                671.1492910758966,
+                51.75145954962469,
+                670.440366972477,
+                108.465387823186,
+                670.440366972477,
+                51.75145954962469,
+                661.2243536280233,
+                108.465387823186,
+                661.2243536280233
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                51.75145954962469,
+                661.2243536280233,
+                545.1626355296081,
+                679.6563803169307
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T17:12:40Z",
+    "modified": "2022-11-07T17:12:40Z"
+}

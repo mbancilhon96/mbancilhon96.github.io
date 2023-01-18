@@ -1,0 +1,18 @@
+{
+    "interaction_details": [
+        {
+            "userID": "93c0b846-974e-11ed-9a77-acde48001122",
+            "condition": "test",
+            "timeElapsed": "0:00:17",
+            "contractsOpened": "[]",
+            "contractsReviewed": "{}"
+        },
+        {
+            "userID": "93c0b846-974e-11ed-9a77-acde48001122",
+            "condition": "test",
+            "timeElapsed": "0:00:17",
+            "contractsOpened": "[]",
+            "contractsReviewed": "{}"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "8a86b586-8085-80d2-24ha-c8e82ba69b1",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "The Term of the Agreement is hereby extended to January 20, 2012 unless sooner terminated as provided for in the Agreement.",
+    "target": {
+        "source": "ScansourceInc",
+        "selector": {
+            "node": {
+                "index": 0
+            },
+            "quadPoints": [
+                59.6078013428541,
+                576.3013961419588,
+                485.74016838964087,
+                576.3013961419588,
+                59.6078013428541,
+                566.7895129489502,
+                485.74016838964087,
+                566.7895129489502
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [
+                59.6078013428541,
+                576.3013961419588,
+                485.74016838964087,
+                566.7895129489502
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "id": "Guest",
+        "name": "Guest",
+        "type": "Person"
+    },
+    "created": "2022-11-18T22:09:24Z",
+    "modified": "2022-11-18T22:09:24Z"
+}

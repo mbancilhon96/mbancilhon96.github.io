@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "329db4bf-7dbf-8a47-eeh7-69cb0ab48af",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": " The Consultant may voluntarily terminate the Consultant’s engagement with the Company at any time by giving the Company 120 days prior written Notice of the termination.",
+    "target": {
+        "source": "SLINGERBAGINC",
+        "selector": {
+            "node": {
+                "index": 3
+            },
+            "quadPoints": [
+                219.76647206005006,
+                654.8440366972477,
+                545.1626355296081,
+                654.8440366972477,
+                219.76647206005006,
+                645.628023352794,
+                545.1626355296081,
+                645.628023352794,
+                141.07589658048374,
+                644.9190992493744,
+                411.884904086739,
+                644.9190992493744,
+                141.07589658048374,
+                635.7030859049207,
+                411.884904086739,
+                635.7030859049207
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                141.07589658048374,
+                635.7030859049207,
+                545.1626355296081,
+                654.8440366972477
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T17:18:25Z",
+    "modified": "2022-11-07T17:18:25Z"
+}

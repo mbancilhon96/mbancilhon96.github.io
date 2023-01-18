@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "0a85ad3b-e5d9-87d6-f8hc-1bdadbaebbe",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Any Participant will have the right to voluntarily withdraw from the Joint Venture at any time",
+    "target": {
+        "source": "MJBIOTECH",
+        "selector": {
+            "node": {
+                "index": 6
+            },
+            "quadPoints": [
+                171.55963302752295,
+                651.29941618015,
+                502.6271893244371,
+                651.29941618015,
+                171.55963302752295,
+                639.9566305254378,
+                502.6271893244371,
+                639.9566305254378,
+                142.49374478732278,
+                637.1209341117598,
+                319.72477064220186,
+                637.1209341117598,
+                142.49374478732278,
+                626.487072560467,
+                319.72477064220186,
+                626.487072560467
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                142.49374478732278,
+                626.487072560467,
+                502.6271893244371,
+                651.29941618015
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T17:11:11Z",
+    "modified": "2022-11-07T17:11:11Z"
+}

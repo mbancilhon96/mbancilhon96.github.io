@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "df828f08-b770-85d8-22hc-98a9c9a3896",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "This Agreement shall terminate immediately upon El Pollo Loco's receipt of Developer's notice to terminate",
+    "target": {
+        "source": "ElPolloLocoHoldingsInc",
+        "selector": {
+            "node": {
+                "index": 8
+            },
+            "quadPoints": [
+                105.62969140950794,
+                558.4303586321935,
+                545.1626355296081,
+                558.4303586321935,
+                105.62969140950794,
+                547.0875729774812,
+                545.1626355296081,
+                547.0875729774812,
+                50.33361134278566,
+                546.3786488740617,
+                93.57798165137616,
+                546.3786488740617,
+                50.33361134278566,
+                534.3269391159299,
+                93.57798165137616,
+                534.3269391159299
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                50.33361134278566,
+                534.3269391159299,
+                545.1626355296081,
+                558.4303586321935
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T17:02:28Z",
+    "modified": "2022-11-07T17:02:28Z"
+}

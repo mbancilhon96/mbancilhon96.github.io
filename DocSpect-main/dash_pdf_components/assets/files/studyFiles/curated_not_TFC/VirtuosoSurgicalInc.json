@@ -1,0 +1,69 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "f5bc8d00-e158-819a-ach2-48f8e9998bc",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Company may terminate this Agreement and the license granted herein in the event of uncured material breach, upon giving JHU sixty (60) days written notice under Paragraph 8.1",
+    "target": {
+        "source": "VirtuosoSurgicalInc",
+        "selector": {
+            "node": {
+                "index": 5
+            },
+            "quadPoints": [
+                180.39042876658002,
+                685.7315471731371,
+                411.6467633190852,
+                685.7315471731371,
+                180.39042876658002,
+                676.2925131097695,
+                411.6467633190852,
+                676.2925131097695,
+                412.1711541003834,
+                685.7315471731371,
+                414.26871722557615,
+                685.7315471731371,
+                412.1711541003834,
+                676.2925131097695,
+                414.26871722557615,
+                676.2925131097695,
+                414.7931080068744,
+                685.7315471731371,
+                546.9395848940202,
+                685.7315471731371,
+                414.7931080068744,
+                676.2925131097695,
+                546.9395848940202,
+                676.2925131097695,
+                109.59767329132332,
+                675.7681223284713,
+                327.21984753007536,
+                675.7681223284713,
+                109.59767329132332,
+                666.853479046402,
+                327.21984753007536,
+                666.853479046402
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [
+                180.39042876658002,
+                685.7315471731371,
+                327.21984753007536,
+                666.853479046402
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "id": "Guest",
+        "name": "Guest",
+        "type": "Person"
+    },
+    "created": "2022-11-18T01:38:21Z",
+    "modified": "2022-11-18T01:38:21Z"
+}

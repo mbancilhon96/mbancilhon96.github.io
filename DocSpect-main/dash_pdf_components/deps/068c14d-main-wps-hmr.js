@@ -1,0 +1,16 @@
+webpackHotUpdatedash_pdf_components("main",{
+
+/***/ "./src/lib/CustomPdfActions.js":
+/*!*************************************!*\
+  !*** ./src/lib/CustomPdfActions.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/asiuadobe.com/Documents/dash-pdf-reader/dash_pdf_components/src/lib/CustomPdfActions.js: Unexpected token, expected \",\" (113:35)\n\n\u001b[0m \u001b[90m 111 |\u001b[39m                 \u001b[33m<\u001b[39m\u001b[33mStack\u001b[39m gap\u001b[33m=\u001b[39m{\u001b[35m2\u001b[39m}\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 112 |\u001b[39m                     \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m{ \u001b[32m`${ (annotation.creator.name).toLowerCase() }`\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 113 |\u001b[39m                         {annotation\u001b[33m.\u001b[39mcreator\u001b[33m.\u001b[39mname}\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 114 |\u001b[39m                     \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 115 |\u001b[39m                     \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"clause-body\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 116 |\u001b[39m                         {\u001b[0m\n    at instantiate (/Users/asiuadobe.com/Documents/dash-pdf-reader/dash_pdf_components/node_modules/@babel/parser/lib/index.js:72:32)\n    at constructor (/Users/asiuadobe.com/Documents/dash-pdf-reader/dash_pdf_components/node_modules/@babel/parser/lib/index.js:359:12)\n    at Object.raise (/Users/asiuadobe.com/Documents/dash-pdf-reader/dash_pdf_components/node_modules/@babel/parser/lib/index.js:3339:19)\n    at Object.unexpected (/Users/asiuadobe.com/Documents/dash-pdf-reader/dash_pdf_components/node_modules/@babel/parser/lib/index.js:3377:16)\n    at Object.expect (/Users/asiuadobe.com/Documents/dash-pdf-reader/dash_pdf_components/node_modules/@babel/parser/lib/index.js:4006:28)\n    at Object.parseObjectLike (/Users/asiuadobe.com/Documents/dash-pdf-reader/dash_pdf_components/node_modules/@babel/parser/lib/index.js:13595:14)\n    at Object.parseExprAtom (/Users/asiuadobe.com/Documents/dash-pdf-reader/dash_pdf_components/node_modules/@babel/parser/lib/index.js:12998:23)\n    at Object.parseExprAtom (/Users/asiuadobe.com/Documents/dash-pdf-reader/dash_pdf_components/node_modules/@babel/parser/lib/index.js:8039:20)\n    at Object.parseExprSubscripts (/Users/asiuadobe.com/Documents/dash-pdf-reader/dash_pdf_components/node_modules/@babel/parser/lib/index.js:12648:23)\n    at Object.parseUpdate (/Users/asiuadobe.com/Documents/dash-pdf-reader/dash_pdf_components/node_modules/@babel/parser/lib/index.js:12627:21)");
+
+/***/ })
+
+})
+//# sourceMappingURL=068c14d-main-wps-hmr.js.map
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIwNjhjMTRkLW1haW4td3BzLWhtci5qcyIsInNvdXJjZVJvb3QiOiIifQ==

@@ -1,0 +1,57 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "d585b569-187a-8ffb-19h7-aadb28b1ba5",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Unless earlier terminated in accordance with the provisions hereof, the initial term of this Agreement (“Term”) is the Effective Date through March 15, 2022.",
+    "target": {
+        "source": "PapaJohnsInternationalInc",
+        "selector": {
+            "node": {
+                "index": 1
+            },
+            "quadPoints": [
+                108.43546840029842,
+                676.4932324416498,
+                544.7138441862944,
+                676.4932324416498,
+                108.43546840029842,
+                666.9813492486412,
+                544.7138441862944,
+                666.9813492486412,
+                50.09591814984547,
+                666.3472237024406,
+                79.26569327507194,
+                666.3472237024406,
+                50.09591814984547,
+                656.835340509432,
+                79.26569327507194,
+                656.835340509432,
+                79.89981882127252,
+                666.3472237024406,
+                136.9711179793243,
+                666.3472237024406,
+                79.89981882127252,
+                656.835340509432,
+                136.9711179793243,
+                656.835340509432
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [50.09591814984547, 656.835340509432, 544.7138441862944, 676.4932324416498],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-18T22:08:08Z",
+    "modified": "2022-11-18T22:08:08Z"
+}

@@ -1,0 +1,81 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "799cadb3-f155-81ec-a0h1-98291b8098a",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "This agreement will be automatically renewed at the end of every ten (10) year term, with each subsequent term of renewal being for a ten (10) year term. A six (6) months notice must be given by either party of their intention to terminate relations due to any reason other than breach of this agreement.",
+    "target": {
+        "source": "AgapeAtpCorp",
+        "selector": {
+            "node": {
+                "index": 1
+            },
+            "quadPoints": [
+                80.57733428367784,
+                558.9191019244477,
+                97.54098360655739,
+                558.9191019244477,
+                80.57733428367784,
+                549.3770491803278,
+                97.54098360655739,
+                549.3770491803278,
+                97.54098360655739,
+                558.9191019244477,
+                516.8611903064862,
+                558.9191019244477,
+                97.54098360655739,
+                549.3770491803278,
+                516.8611903064862,
+                549.3770491803278,
+                516.3310762651462,
+                558.9191019244477,
+                544.9572344975054,
+                558.9191019244477,
+                516.3310762651462,
+                549.3770491803278,
+                544.9572344975054,
+                549.3770491803278,
+                80.57733428367784,
+                548.8469351389879,
+                445.8259087669281,
+                548.8469351389879,
+                80.57733428367784,
+                539.3048823948682,
+                445.8259087669281,
+                539.3048823948682,
+                445.8259087669281,
+                548.8469351389879,
+                544.9572344975054,
+                548.8469351389879,
+                445.8259087669281,
+                539.3048823948682,
+                544.9572344975054,
+                539.3048823948682,
+                80.57733428367784,
+                538.7747683535281,
+                164.8654668567356,
+                538.7747683535281,
+                80.57733428367784,
+                529.2327156094084,
+                164.8654668567356,
+                529.2327156094084
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [80.57733428367784, 529.2327156094084, 544.9572344975054, 558.9191019244477],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-18T19:56:18Z",
+    "modified": "2022-11-18T19:56:18Z"
+}

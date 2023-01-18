@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "a89e9c55-f58d-83d3-d3hb-ab890892989",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Accordingly, either Party may terminate this Agreement or all/part of a Project for any reason and at any time upon giving the other Party sixty (60) days prior written notice.",
+    "target": {
+        "source": "FuelcellEnergyInc",
+        "selector": {
+            "node": {
+                "index": 15
+            },
+            "quadPoints": [
+                136.82235195996665,
+                418.7723102585487,
+                545.1626355296081,
+                418.7723102585487,
+                136.82235195996665,
+                408.138448707256,
+                545.1626355296081,
+                408.138448707256,
+                87.90658882402003,
+                407.42952460383646,
+                338.86572143452884,
+                407.42952460383646,
+                87.90658882402003,
+                396.7956630525437,
+                338.86572143452884,
+                396.7956630525437
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                87.90658882402003,
+                396.7956630525437,
+                545.1626355296081,
+                418.7723102585487
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T17:04:14Z",
+    "modified": "2022-11-07T17:04:14Z"
+}

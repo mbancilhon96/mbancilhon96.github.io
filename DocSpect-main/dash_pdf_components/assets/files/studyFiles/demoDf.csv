@@ -1,0 +1,4 @@
+contractID,endUser,region,fiscalYear,marketArea,revenue,tfc,tfcConfidence,reviewed,fileUrl
+CardlyticsInc, ,AMEA,2022, ,134468,true,0.86,False,CardlyticsInc.pdf
+ClickstreamCorp, ,AMEA,2022, ,177936,true,0.99,False,ClickstreamCorp.pdf
+WebmdHealthCorp, ,AMEA,2022, ,155349,true,0.57,False,WebmdHealthCorp.pdf

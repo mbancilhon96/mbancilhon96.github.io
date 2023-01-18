@@ -1,0 +1,69 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "22858d71-66df-8080-21h0-1bdb599c88e",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "This agreement shall begin upon the date of its execution by MA and acceptance in writing by Company and shall remain in effect until the end of the current calendar year and shall be automatically renewed for successive one (1) year periods unless otherwise terminated according to the cancellation or termination provisions contained in paragraph 18 of this Agreement.",
+    "target": {
+        "source": "CybergyHoldingsInc",
+        "selector": {
+            "node": {
+                "index": 1
+            },
+            "quadPoints": [
+                80.54268292682929,
+                511.12195121951214,
+                443.34756097560984,
+                511.12195121951214,
+                80.54268292682929,
+                499.51219512195115,
+                443.34756097560984,
+                499.51219512195115,
+                50.06707317073172,
+                498.06097560975604,
+                443.34756097560984,
+                498.06097560975604,
+                50.06707317073172,
+                486.45121951219505,
+                443.34756097560984,
+                486.45121951219505,
+                50.06707317073172,
+                485.7256097560975,
+                444.07317073170736,
+                485.7256097560975,
+                50.06707317073172,
+                474.11585365853654,
+                444.07317073170736,
+                474.11585365853654,
+                50.06707317073172,
+                472.6646341463414,
+                360.62804878048786,
+                472.6646341463414,
+                50.06707317073172,
+                461.05487804878044,
+                360.62804878048786,
+                461.05487804878044
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [
+                80.54268292682929,
+                511.12195121951214,
+                360.62804878048786,
+                461.05487804878044
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "id": "Guest",
+        "name": "Guest",
+        "type": "Person"
+    },
+    "created": "2022-11-18T19:59:33Z",
+    "modified": "2022-11-18T19:59:33Z"
+}

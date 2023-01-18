@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "f190bb7c-f60e-8642-f0he-fad859b4a9e",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Either Affiliate or Chase may terminate this Agreement at any time, with or without cause, by giving the other party written or e-mail notice of termination",
+    "target": {
+        "source": "CreditcardscomInc",
+        "selector": {
+            "node": {
+                "index": 3
+            },
+            "quadPoints": [
+                91.9893899204244,
+                536.2705570291778,
+                532.0954907161804,
+                536.2705570291778,
+                91.9893899204244,
+                527.2519893899205,
+                532.0954907161804,
+                527.2519893899205,
+                49.602122015915114,
+                526.3501326259948,
+                119.04509283819628,
+                526.3501326259948,
+                49.602122015915114,
+                516.4297082228118,
+                119.04509283819628,
+                516.4297082228118
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                49.602122015915114,
+                516.4297082228118,
+                532.0954907161804,
+                536.2705570291778
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T16:58:03Z",
+    "modified": "2022-11-07T16:58:03Z"
+}

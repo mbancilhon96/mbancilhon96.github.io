@@ -1,0 +1,77 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "98a29acb-3df4-82f7-47h8-3bcbcb9f895",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "This Agreement may be terminated by Honeywell at any time, in its sole discretion, prior to the Distribution; if that modification or termination is required by any rule of the Authorities with Protection and Supervisory Powers with whose rules and guidance Customer is bound to comply",
+    "target": {
+        "source": "GarrettMotionInc",
+        "selector": {
+            "node": {
+                "index": 13
+            },
+            "quadPoints": [
+                255.62392055267708,
+                587.6606217616579,
+                543.3613989637307,
+                587.6606217616579,
+                255.62392055267708,
+                578.026554404145,
+                543.3613989637307,
+                578.026554404145,
+                90.56023316062178,
+                577.3842832469775,
+                479.7765544041452,
+                577.3842832469775,
+                90.56023316062178,
+                568.3924870466321,
+                479.7765544041452,
+                568.3924870466321,
+                480.4188255613127,
+                577.3842832469775,
+                511.24784110535415,
+                577.3842832469775,
+                480.4188255613127,
+                568.3924870466321,
+                511.24784110535415,
+                568.3924870466321,
+                511.24784110535415,
+                577.3842832469775,
+                544.0036701208982,
+                577.3842832469775,
+                511.24784110535415,
+                568.3924870466321,
+                544.0036701208982,
+                568.3924870466321,
+                90.56023316062178,
+                567.7502158894645,
+                269.11161485319525,
+                567.7502158894645,
+                90.56023316062178,
+                558.1161485319516,
+                269.11161485319525,
+                558.1161485319516
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [
+                255.62392055267708,
+                587.6606217616579,
+                269.11161485319525,
+                558.1161485319516
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "id": "Guest",
+        "name": "Guest",
+        "type": "Person"
+    },
+    "created": "2022-11-18T01:35:27Z",
+    "modified": "2022-11-18T01:35:27Z"
+}

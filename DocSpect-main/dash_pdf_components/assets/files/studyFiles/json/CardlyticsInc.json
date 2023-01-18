@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "80ac94ac-dc70-8275-a3h5-98cba9a78b9",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Bank of America may terminate Maintenance Services for convenience at any time in accordance with the Section entitled “Termination” of the Agreement .",
+    "target": {
+        "source": "CardlyticsInc",
+        "selector": {
+            "node": {
+                "index": 0
+            },
+            "quadPoints": [
+                222.78225806451607,
+                424.54032258064524,
+                506.57258064516117,
+                424.54032258064524,
+                222.78225806451607,
+                414.9435483870969,
+                506.57258064516117,
+                414.9435483870969,
+                50.040322580645146,
+                414.25806451612914,
+                283.79032258064507,
+                414.25806451612914,
+                50.040322580645146,
+                405.34677419354847,
+                283.79032258064507,
+                405.34677419354847
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                50.040322580645146,
+                405.34677419354847,
+                506.57258064516117,
+                424.54032258064524
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-04T16:07:43Z",
+    "modified": "2022-11-04T16:07:43Z"
+}

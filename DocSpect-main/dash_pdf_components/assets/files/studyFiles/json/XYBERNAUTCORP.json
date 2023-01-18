@@ -1,0 +1,57 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "b38682fb-cf39-81c2-bdhe-c9db6bbd8bb",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Subject to earlier termination as provided for herein, the term of this Agreement  shall commence as of the date hereof and shall  terminate at the end of the Season which is scheduled to end on October 12, 2002 (the \"Term\").",
+    "target": {
+        "source": "XYBERNAUTCORP",
+        "selector": {
+            "node": {
+                "index": 3
+            },
+            "quadPoints": [
+                73.55856335926677,
+                762.734306724928,
+                357.01268251092404,
+                762.734306724928,
+                73.55856335926677,
+                755.1248001705212,
+                357.01268251092404,
+                755.1248001705212,
+                13.316636470212087,
+                755.1248001705212,
+                357.01268251092404,
+                755.1248001705212,
+                13.316636470212087,
+                746.8811680699137,
+                357.01268251092404,
+                746.8811680699137,
+                13.316636470212087,
+                747.5152936161143,
+                344.3301715869125,
+                747.5152936161143,
+                13.316636470212087,
+                739.2716615155068,
+                344.3301715869125,
+                739.2716615155068
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [13.316636470212087, 739.2716615155068, 357.01268251092404, 762.734306724928],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-18T22:14:33Z",
+    "modified": "2022-11-18T22:14:33Z"
+}

@@ -1,0 +1,61 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "5aa1a44a-7243-8414-90h8-fad8f8a99ae",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": " The term of this Agreement shall continue for one (1) year following the Launch Date, unless earlier terminated as provided herein.",
+    "target": {
+        "source": "2ThemartComInc",
+        "selector": {
+            "node": {
+                "index": 4
+            },
+            "quadPoints": [
+                94.55217716241201,
+                183.41132045785298,
+                301.91165480077103,
+                183.41132045785298,
+                94.55217716241201,
+                174.98587892852913,
+                301.91165480077103,
+                174.98587892852913,
+                49.616489006018185,
+                174.04971875860429,
+                293.01813318648476,
+                174.04971875860429,
+                49.616489006018185,
+                165.62427722928044,
+                293.01813318648476,
+                165.62427722928044,
+                49.616489006018185,
+                165.15619714431796,
+                184.8916335601621,
+                165.15619714431796,
+                49.616489006018185,
+                156.73075561499422,
+                184.8916335601621,
+                156.73075561499422
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [
+                94.55217716241201,
+                183.41132045785298,
+                184.8916335601621,
+                156.73075561499422
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "id": "Guest",
+        "name": "Guest",
+        "type": "Person"
+    },
+    "created": "2022-11-18T19:54:19Z",
+    "modified": "2022-11-18T19:54:19Z"
+}

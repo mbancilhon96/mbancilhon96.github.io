@@ -1,0 +1,5 @@
+contractID,endUser,region,fiscalYear,marketArea,revenue,tfc,tfcConfidence,reviewed,fileUrl
+DR3215052, ,Americas,2021, ,55000,true,0.98,False,DR3215052_00873923_Parent.pdf
+DR3187450, ,Americas,2021, ,125000,true,0.96,False,DR3187450_00829261_Parent.pdf
+DR3187111, ,Americas,2021, ,225000,true,0.98,False,DR3187111_00829261_Parent.pdf
+DR3187222, ,EMEA,2022, ,125000,true,0.88,False,DR3187222_00829261_Parent.pdf

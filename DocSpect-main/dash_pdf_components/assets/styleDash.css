@@ -1,0 +1,21 @@
+body { margin: 0; background: rgb(246,246,246)}
+
+button {
+    margin:2px
+}
+
+#slider_revenue .rc-slider-track{
+  background-color: steelblue;
+  color:steelblue
+}
+#slider_revenue .rc-slider-handle{
+  border-color: steelblue;
+}
+#slider_confidence .rc-slider-track{
+  background-color: steelblue;
+  color:steelblue
+}
+#slider_confidence .rc-slider-handle{
+  border-color: steelblue;
+}
+

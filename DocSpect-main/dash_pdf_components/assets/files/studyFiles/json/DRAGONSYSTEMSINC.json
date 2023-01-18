@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "beada229-4165-84e7-ddh2-3a7bb9b98b9",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Dragon may terminate this agreement without cause by giving sixty (60) days written notice to MMI.",
+    "target": {
+        "source": "DRAGONSYSTEMSINC",
+        "selector": {
+            "node": {
+                "index": 1
+            },
+            "quadPoints": [
+                13.674588665447894,
+                278.8555758683731,
+                335.6489945155392,
+                278.8555758683731,
+                13.674588665447894,
+                270.77513711151755,
+                335.6489945155392,
+                270.77513711151755,
+                13.674588665447894,
+                270.77513711151755,
+                108.15356489945152,
+                270.77513711151755,
+                13.674588665447894,
+                263.3162705667278,
+                108.15356489945152,
+                263.3162705667278
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                13.674588665447894,
+                263.3162705667278,
+                335.6489945155392,
+                278.8555758683731
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T17:00:25Z",
+    "modified": "2022-11-07T17:00:25Z"
+}

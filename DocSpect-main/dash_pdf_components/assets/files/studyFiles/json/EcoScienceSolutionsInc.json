@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "7ea2bdad-b4e5-87a0-80he-786a18b389f",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "The term of this Agreement shall be for one (1) year commencing on the Effective Date and automatically renewing annually thereafter, unless either party provides a thirty-day notice of written termination one to the other (\"Term\")",
+    "target": {
+        "source": "EcoScienceSolutionsInc",
+        "selector": {
+            "node": {
+                "index": 0
+            },
+            "quadPoints": [
+                143.66090520313614,
+                666.5322523164647,
+                544.9572344975054,
+                666.5322523164647,
+                143.66090520313614,
+                656.990199572345,
+                544.9572344975054,
+                656.990199572345,
+                49.830719885958665,
+                656.460085531005,
+                434.1633998574484,
+                656.460085531005,
+                49.830719885958665,
+                646.9180327868852,
+                434.1633998574484,
+                646.9180327868852
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [49.830719885958665, 646.9180327868852, 544.9572344975054, 666.5322523164647],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-18T22:01:14Z",
+    "modified": "2022-11-18T22:01:14Z"
+}

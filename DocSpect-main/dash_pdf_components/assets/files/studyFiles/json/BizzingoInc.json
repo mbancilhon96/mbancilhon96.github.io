@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "e09c9373-38f4-8ab3-b7h7-782afab1896",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Theismann shall have the right to terminate this Agreement at any time upon thirty termination to become effective at the conclusion of such 30day period.",
+    "target": {
+        "source": "BizzingoInc",
+        "selector": {
+            "node": {
+                "index": 5
+            },
+            "quadPoints": [
+                101.55844155844154,
+                577.0649350649351,
+                379.00432900432895,
+                577.0649350649351,
+                101.55844155844154,
+                568.2337662337663,
+                379.00432900432895,
+                568.2337662337663,
+                101.55844155844154,
+                568.2337662337663,
+                344.41558441558436,
+                568.2337662337663,
+                101.55844155844154,
+                558.6666666666667,
+                344.41558441558436,
+                558.6666666666667
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                101.55844155844154,
+                558.6666666666667,
+                379.00432900432895,
+                577.0649350649351
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-04T16:00:34Z",
+    "modified": "2022-11-04T16:00:34Z"
+}

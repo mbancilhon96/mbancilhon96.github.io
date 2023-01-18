@@ -1,0 +1,57 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "3a8aab70-9064-832a-06h4-8bd8a8bf887",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Throughout the Term and for a period of six (6) months after the expiration or termination of this Agreement, neither XSPA nor any of its affiliates shall, directly or indirectly, sell, offer for sale, market or promote any digital meditation or digital sleep products (other than the Products), including online or in any Store in the Territory, without the express prior written consent of Calm",
+    "target": {
+        "source": "XpresspaGroupInc",
+        "selector": {
+            "node": {
+                "index": 1
+            },
+            "quadPoints": [
+                99.09563037249283,
+                740.7732808022922,
+                545.0259670487105,
+                740.7732808022922,
+                99.09563037249283,
+                731.1833810888252,
+                545.0259670487105,
+                731.1833810888252,
+                50.080587392550136,
+                730.6506088825215,
+                545.0259670487105,
+                730.6506088825215,
+                50.080587392550136,
+                721.0607091690545,
+                545.0259670487105,
+                721.0607091690545,
+                50.080587392550136,
+                720.5279369627507,
+                411.83291547277935,
+                720.5279369627507,
+                50.080587392550136,
+                711.4708094555874,
+                411.83291547277935,
+                711.4708094555874
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [50.080587392550136, 711.4708094555874, 545.0259670487105, 740.7732808022922],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-18T22:13:28Z",
+    "modified": "2022-11-18T22:13:28Z"
+}

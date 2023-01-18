@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "e8b2adf1-ebab-8f5d-83h9-29a97a998b9",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "The Software Publisher and element 5 are authorized to revoke the license granted to the Affiliate at any time by written notice.",
+    "target": {
+        "source": "SouthernStarEnergyInc",
+        "selector": {
+            "node": {
+                "index": 4
+            },
+            "quadPoints": [
+                90.7422852376981,
+                362.76730608840694,
+                418.97414512093417,
+                362.76730608840694,
+                90.7422852376981,
+                353.55129274395324,
+                418.97414512093417,
+                353.55129274395324,
+                50.33361134278566,
+                352.8423686405337,
+                368.6405337781485,
+                352.8423686405337,
+                50.33361134278566,
+                342.9174311926605,
+                368.6405337781485,
+                342.9174311926605
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                50.33361134278566,
+                342.9174311926605,
+                418.97414512093417,
+                362.76730608840694
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T17:20:12Z",
+    "modified": "2022-11-07T17:20:12Z"
+}

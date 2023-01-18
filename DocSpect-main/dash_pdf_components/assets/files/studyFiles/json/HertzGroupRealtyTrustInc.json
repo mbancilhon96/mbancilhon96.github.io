@@ -1,0 +1,46 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "89a4acaf-8100-8619-cch1-38fa09968b3",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Either Party may terminate this Agreement by giving the other Party thirty (30) days' prior written notice.",
+    "target": {
+        "source": "HertzGroupRealtyTrustInc",
+        "selector": {
+            "node": {
+                "index": 2
+            },
+            "quadPoints": [
+                91.79719703215169,
+                771.2250618301731,
+                440.76669414674365,
+                771.2250618301731,
+                91.79719703215169,
+                761.4146743610881,
+                440.76669414674365,
+                761.4146743610881
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                91.79719703215169,
+                761.4146743610881,
+                440.76669414674365,
+                771.2250618301731
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T17:06:07Z",
+    "modified": "2022-11-07T17:06:07Z"
+}

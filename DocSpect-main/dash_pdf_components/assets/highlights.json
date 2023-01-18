@@ -1,0 +1,46 @@
+{
+  "@context": [
+      "https://www.w3.org/ns/anno.jsonld",
+      "https://comments.acrobat.com/ns/anno.jsonld"
+  ],
+  "type": "Annotation",
+  "id": "8a8ea969-d860-8dc3-5chb-29d9cbb1b84",
+  "bodyValue": "Prime or plus plan for protection.",
+  "motivation": "commenting",
+  "target": {
+      "source": "0d07d124-ac85-43b3-a867-36930f502ac6",
+      "selector": {
+          "node": {
+              "index": 0
+          },
+          "opacity": 0.4,
+          "subtype": "highlight",
+          "boundingBox": [
+              71.69551583223566,
+              325.5741406817769,
+              152.04393874767217,
+              345.3522140148074
+          ],
+          "quadPoints": [
+              71.69551583223566,
+              345.3522140148074,
+              152.04393874767217,
+              345.3522140148074,
+              71.69551583223566,
+              325.5741406817769,
+              152.04393874767217,
+              325.5741406817769
+          ],
+          "strokeColor": "#008b02",
+          "strokeWidth": 3,
+          "type": "AdobeAnnoSelector"
+      }
+  },
+  "creator": {
+      "type": "Person",
+      "category": "clause",
+      "name": "termination"
+  },
+  "created": "2020-04-03T14:56:54Z",
+  "modified": "2020-04-03T15:00:14Z"
+}

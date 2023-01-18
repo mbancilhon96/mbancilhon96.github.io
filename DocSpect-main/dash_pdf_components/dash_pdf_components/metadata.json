@@ -1,0 +1,162 @@
+{
+  "src/lib/components/DashPdfComponents.react.js": {
+    "description": "PDF component using the Adobe Embed API. \nTakes file url location and json annotations.",
+    "displayName": "DashPdfComponents",
+    "methods": [
+      {
+        "name": "setAnnotationManager",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "annotManager",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "loadPdf",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "updateAnnotationReview",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "id",
+            "type": null
+          },
+          {
+            "name": "status",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "addAnnotation",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "newArr",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "updatePdfRendered",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "id",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "setIsOpen",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      }
+    ],
+    "props": {
+      "key": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks.",
+        "defaultValue": {
+          "value": "\"\"",
+          "computed": false
+        }
+      },
+      "label": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "A label that will be printed when this component is rendered.",
+        "defaultValue": {
+          "value": "\"\"",
+          "computed": false
+        }
+      },
+      "apiKey": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Api key for authentication",
+        "defaultValue": {
+          "value": "\"\"",
+          "computed": false
+        }
+      },
+      "pdfRendered": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "URL to file that will be displayed",
+        "defaultValue": {
+          "value": "\"\"",
+          "computed": false
+        }
+      },
+      "currPdf": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "URL to file that will be displayed"
+      },
+      "documentTable": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Annotations that will appear as highlights"
+      },
+      "toggle": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "showImpact": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}

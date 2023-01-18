@@ -1,0 +1,46 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "838b8634-9ce9-8327-52h9-49b8189b890",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": " Either party may terminate this Agreement at any time on prior written notice to the other.",
+    "target": {
+        "source": "ADUROBIOTECH",
+        "selector": {
+            "node": {
+                "index": 0
+            },
+            "quadPoints": [
+                85.94444444444444,
+                595.5,
+                378.72222222222223,
+                595.5,
+                85.94444444444444,
+                586.0555555555555,
+                378.72222222222223,
+                586.0555555555555
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                85.94444444444444,
+                586.0555555555555,
+                378.72222222222223,
+                595.5
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-04T16:04:40Z",
+    "modified": "2022-11-04T16:04:40Z"
+}

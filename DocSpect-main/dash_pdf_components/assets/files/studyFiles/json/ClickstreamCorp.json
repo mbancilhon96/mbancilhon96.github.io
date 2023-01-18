@@ -1,0 +1,46 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "b1919757-8811-8b6f-bah0-9acba98c891",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Client has the unilateral right to cancel this agreement at any time within a 7-day notice period",
+    "target": {
+        "source": "ClickstreamCorp",
+        "selector": {
+            "node": {
+                "index": 0
+            },
+            "quadPoints": [
+                99.73841554559041,
+                494.5037369207773,
+                421.1883408071748,
+                494.5037369207773,
+                99.73841554559041,
+                484.9745889387146,
+                421.1883408071748,
+                484.9745889387146
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                99.73841554559041,
+                484.9745889387146,
+                421.1883408071748,
+                494.5037369207773
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T16:54:19Z",
+    "modified": "2022-11-07T16:54:19Z"
+}

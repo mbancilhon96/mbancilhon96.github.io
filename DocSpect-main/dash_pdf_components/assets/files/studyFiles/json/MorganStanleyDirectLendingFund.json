@@ -1,0 +1,81 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "f296bc36-2ba4-8215-b8hf-48bb7b86aab",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "If either party materially breaches one or more of its obligations hereunder, the other party may terminate this Agreement, effective upon written notice, if the breaching party does not cure such breach within 15 days after written notice thereof (or any mutually agreed extension)",
+    "target": {
+        "source": "MorganStanleyDirectLendingFund",
+        "selector": {
+            "node": {
+                "index": 1
+            },
+            "quadPoints": [
+                120.02881844380404,
+                626.7102145373038,
+                299.75450955278046,
+                626.7102145373038,
+                120.02881844380404,
+                617.8191909488739,
+                299.75450955278046,
+                617.8191909488739,
+                299.75450955278046,
+                626.7102145373038,
+                425.49898601771804,
+                626.7102145373038,
+                299.75450955278046,
+                617.8191909488739,
+                425.49898601771804,
+                617.8191909488739,
+                425.49898601771804,
+                626.7102145373038,
+                427.4042053580959,
+                626.7102145373038,
+                425.49898601771804,
+                617.8191909488739,
+                427.4042053580959,
+                617.8191909488739,
+                49.53570284982389,
+                617.1841178354147,
+                446.4563987618743,
+                617.1841178354147,
+                49.53570284982389,
+                607.6580211335254,
+                446.4563987618743,
+                607.6580211335254,
+                447.0914718753336,
+                617.1841178354147,
+                534.096488419255,
+                617.1841178354147,
+                447.0914718753336,
+                607.6580211335254,
+                534.096488419255,
+                607.6580211335254,
+                49.53570284982389,
+                607.0229480200661,
+                149.87725477639023,
+                607.0229480200661,
+                49.53570284982389,
+                598.1319244316362,
+                149.87725477639023,
+                598.1319244316362
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [49.53570284982389, 598.1319244316362, 534.096488419255, 626.7102145373038],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-30T21:30:31Z",
+    "modified": "2022-11-30T21:30:31Z"
+}

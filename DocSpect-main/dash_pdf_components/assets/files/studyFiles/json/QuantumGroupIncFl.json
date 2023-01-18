@@ -1,0 +1,62 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "7faf9412-858a-8155-57ha-fa99889f8bd",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Customer may terminate this Agreement, or any portion of Services specified herein, for convenience by: providing at least sixty (60) days prior written notice to IBM; and paying the applicable early termination charges specified in Attachment C.",
+    "target": {
+        "source": "QuantumGroupIncFl",
+        "selector": {
+            "node": {
+                "index": 3
+            },
+            "quadPoints": [
+                50.33361134278566,
+                716.5204336947456,
+                430.3169307756464,
+                716.5204336947456,
+                50.33361134278566,
+                707.3044203502919,
+                430.3169307756464,
+                707.3044203502919,
+                51.75145954962469,
+                705.1776480400333,
+                284.27856547122605,
+                705.1776480400333,
+                51.75145954962469,
+                695.9616346955796,
+                284.27856547122605,
+                695.9616346955796,
+                51.75145954962469,
+                694.5437864887406,
+                322.56046705587994,
+                694.5437864887406,
+                51.75145954962469,
+                685.3277731442869,
+                322.56046705587994,
+                685.3277731442869
+            ],
+            "opacity": 0.4,
+            "subtype": "highlight",
+            "boundingBox": [
+                50.33361134278566,
+                685.3277731442869,
+                430.3169307756464,
+                716.5204336947456
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-07T17:15:46Z",
+    "modified": "2022-11-07T17:15:46Z"
+}

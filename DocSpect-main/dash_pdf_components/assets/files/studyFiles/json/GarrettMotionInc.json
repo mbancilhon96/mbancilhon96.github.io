@@ -1,0 +1,81 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "4393a71e-4ec8-8f26-f2h1-e97a2ba3a93",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": " This Agreement may be terminated by Honeywell at any time, in its sole discretion, prior to the Distribution; if that modification or termination is required by any rule of the Authorities with Protection and Supervisory Powers with whose rules and guidance Customer is bound to comply",
+    "target": {
+        "source": "GarrettMotionInc",
+        "selector": {
+            "node": {
+                "index": 13
+            },
+            "quadPoints": [
+                254.02924538371227,
+                587.3356815028285,
+                255.9344647240901,
+                587.3356815028285,
+                254.02924538371227,
+                578.4446579143985,
+                255.9344647240901,
+                578.4446579143985,
+                255.9344647240901,
+                587.3356815028285,
+                542.9875120076849,
+                587.3356815028285,
+                255.9344647240901,
+                578.4446579143985,
+                542.9875120076849,
+                578.4446579143985,
+                90.18038211121785,
+                577.1745116874799,
+                479.4802006617569,
+                577.1745116874799,
+                90.18038211121785,
+                568.28348809905,
+                479.4802006617569,
+                568.28348809905,
+                480.7503468886755,
+                577.1745116874799,
+                511.23385633472094,
+                577.1745116874799,
+                480.7503468886755,
+                568.28348809905,
+                511.23385633472094,
+                568.28348809905,
+                511.23385633472094,
+                577.1745116874799,
+                544.2576582346036,
+                577.1745116874799,
+                511.23385633472094,
+                568.28348809905,
+                544.2576582346036,
+                568.28348809905,
+                90.18038211121785,
+                567.6484149855908,
+                269.271000106735,
+                567.6484149855908,
+                90.18038211121785,
+                558.1223182837016,
+                269.271000106735,
+                558.1223182837016
+            ],
+            "opacity": 1,
+            "subtype": "highlight",
+            "boundingBox": [90.18038211121785, 558.1223182837016, 544.2576582346036, 587.3356815028285],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "category": "Clause",
+        "id": "Guest",
+        "name": "TFC",
+        "type": "Person"
+    },
+    "created": "2022-11-30T21:27:37Z",
+    "modified": "2022-11-30T21:27:37Z"
+}

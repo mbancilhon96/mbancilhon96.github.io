@@ -28,7 +28,7 @@ from operator import itemgetter
 # from dash_extensions.enrich import Output, DashProxy, Input, MultiplexerTransform
 
 # To use default settings, set locale to None or leave second argument blank.
-locale.setlocale(locale.LC_ALL, 'en_US')
+# locale.setlocale(locale.LC_ALL, 'en_US')
 
 dash.register_page(
     __name__,

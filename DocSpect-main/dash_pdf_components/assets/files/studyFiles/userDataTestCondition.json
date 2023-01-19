@@ -13,6 +13,27 @@
             "timeElapsed": "0:00:17",
             "contractsOpened": "[]",
             "contractsReviewed": "{}"
+        },
+        {
+            "userID": "56075424-976c-11ed-b93e-acde48001122",
+            "condition": "test",
+            "timeElapsed": "0:00:48",
+            "contractsOpened": "['EcoScienceSolutionsInc', 'WEBHELPCOMINC', 'MorganStanleyDirectLendingFund', 'PapaJohnsInternationalInc', 'PapaJohnsInternationalInc', 'PapaJohnsInternationalInc']",
+            "contractsReviewed": "{'PapaJohnsInternationalInc': True}"
+        },
+        {
+            "userID": "melbtestjan18",
+            "condition": "control",
+            "timeElapsed": "0:00:07",
+            "contractsOpened": "['SouthernStarEnergyInc', 'SouthernStarEnergyInc']",
+            "contractsReviewed": "{'SouthernStarEnergyInc': True}"
+        },
+        {
+            "userID": "melbJan18",
+            "condition": "test",
+            "timeElapsed": "0:00:16",
+            "contractsOpened": "['WEBHELPCOMINC', 'WEBHELPCOMINC']",
+            "contractsReviewed": "{'WEBHELPCOMINC': True}"
         }
     ]
 }

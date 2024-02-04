@@ -1,151 +1,224 @@
 body {
-    font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
-    color: black;
-    font-size:18;
-    margin-left:100px;
-    margin-right:100px;
-
-  }
-       /*=======Publications flex image=========*/
-.flex-container {
-           display: -webkit-flex;
-           display: flex;
-           -webkit-flex-direction: row;
-           flex-direction: row;
-           -webkit-align-items: center;
-           align-items: center;
-           
-           flex-wrap: wrap;
-/*           min-width: 320px;
-           max-width: 1220px;*/
-        }
-        .flex-item {
-            display:flex;
-        align-items: center;
-/*        height: 120px;
-        width: 300px;*/
-/*        background-color: #e46119;
-        border: 1px solid #626262;*/
-/*        margin: 3px;
-        padding: 10px 0 0 10px;*/
-        }
-.flex-item img{
-    flex-grow:0;
-    flex-shrink:0;
+  font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 18;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 0px 20px;
 }
-        span {
-            padding-left: 5px;
-        }
 
-      /*=======Contact icons=========*/
+@media (min-width: 750px) {
+  body {
+    padding: 0px 100px;
+  }
+}
+
+/*=======Publications flex image=========*/
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+  /*           min-width: 320px;
+           max-width: 1220px;*/
+}
+
+.flex-item {
+  display: flex;
+  align-items: center;
+  /*        height: 120px;
+        width: 300px;*/
+  /*        background-color: #e46119;
+        border: 1px solid #626262;*/
+  /*        margin: 3px;
+        padding: 10px 0 0 10px;*/
+}
+
+.flex-item img {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+span {
+  padding-left: 5px;
+}
+
+/*=======Contact icons=========*/
 
 .fa {
-    padding: 5px;
-  font-size: 40px;
-  width: 40px;
+  padding: 5px;
+  font-size: 25px;
+  width: 25px;
   text-align: center;
   text-decoration: none;
   /* color: #31ac84; */
-  color: white;
+  color: black;
 
 }
+
 /*Small icons */
-.fa-file{
+.fa-file {
   padding: 2px;
   font-size: 15px;
-  width: 140px;
+  width: 120px;
   text-align: left;
   text-decoration: none;
-  /* color: #31ac84; */
-  color: white;
-
+  color: #31ac84;
+  /*  color: black;
+*/
 }
-.fa-play{
+
+.fa-play {
   padding: 5px;
   font-size: 15px;
   width: 15px;
   text-align: center;
   text-decoration: none;
-  /* color: #31ac84; */
-  color: white;
-
+  color: #31ac84;
+  /*  color: black;
+*/
 }
+
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
-      /*=======text=========*/
 
-  text#my_name{
-    color: #ff4411; font-size: 48px; font-family: 'Signika', sans-serif; padding-bottom: 10px;
-  }
-  p{
-    line-height:25px; /*change line spacing */
-    /*=======Menu=========*/
-  }
+/*=======text=========*/
 
-  ul#menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    position: -webkit-sticky; /* Safari */
-   position: sticky;
-   top: 0;
-    padding-left:25px;
+text#my_name {
+  color: #ff4411;
+  font-size: 48px;
+  font-family: 'Signika', sans-serif;
+  padding-bottom: 10px;
+}
 
-/*    outline-style: solid;
+p {
+  line-height: 25px;
+  /*change line spacing */
+  /*=======Menu=========*/
+}
+
+#menu-container {
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+}
+
+ul#menu {
+  list-style-type: none;
+  padding: 0px;
+  /* margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: -webkit-sticky;
+  /* Safari */
+  /* position: sticky; */
+  /* top: 0; */
+  /* padding-left: 25px; */
+
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 500px;
+
+  /*    outline-style: solid;
     outline-color:grey;
     outline-width: 0.5px;*/
-  }
-  
-  li#menu {
-    float: left;
+}
 
-  }
+li#menu {
+  float: left;
+}
 
+li#menu a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 8px 13px;
+  text-decoration: none;
+  margin-left: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+@media (min-width: 500px) {
   li#menu a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 25px;
-    text-decoration: none;
-    margin-left:15px;
-    margin-right:15px;
+    padding: 15px 25px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
-  
-  li#menu a:hover {
-    /* background-color: #111; */
-    color:#31ac84;;
+}
 
+li#menu a:hover {
+  /* background-color: #111; */
+  color: #31ac84;
+}
 
+li#menu a.active {
+  color: #31ac84;
+}
+
+/*=======Image Flex=========*/
+.container {
+  /* padding: 20px 40px 40px; */
+  /* max-width: 640px; */
+  display: flex;
+}
+
+.container_image {
+  /* margin: 20px 30px 0 0; */
+  width: 200px;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.container_text {
+  flex: 1 1 auto;
+}
+
+/*=======Separator line=========*/
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*============ intro ============*/
+.intro-content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 750px) {
+  .intro-content {
+    flex-direction: row;
   }
-  
-  .active {
-    background-color:grey;
+}
+
+.intro-content .right {
+  padding-left: 0px;
+}
+
+@media (min-width: 750px) {
+  .intro-content .right {
+    padding-left: 60px;
   }
-      /*=======Image Flex=========*/
-  .container {
-    /* padding: 20px 40px 40px; */
-    /* max-width: 640px; */
-    display: flex;
-  }
-  .container_image {
-        /* margin: 20px 30px 0 0; */
-        width: 200px;
-        object-fit: contain;
-        align-self: flex-start;
-  }
-  .container_text {
-        flex: 1 1 auto;
-  }
-      /*=======Separator line=========*/
-  hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
 }

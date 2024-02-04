@@ -10,138 +10,76 @@
 
 <body>
 
-<div id="top" style="padding-left:100px;"></div>
+<div id="top"></div>
 
-<ul id="menu" style="margin-left:200px;margin-right:200px;">
+<div id="menu-container"><ul id="menu">
 
-        <li id="menu" onClick="hideShowSections('home_page')"><a style="color: #31ac84;">Melanie Bancilhon</a></li>
+        <li id="menu" class="home_page" onClick="hideShowSections('home_page')"><a class="active">About</a></li>
 <!--         <li id="menu" onClick="hideShowSections('education')"><a>Education</a></li>
- -->    <li id="menu" onClick="hideShowSections('publications')"><a>Publications</a></li>
-        <li id="menu" onClick="hideShowSections('CV')"><a>CV</a></li>
-        <li id="menu" onClick="hideShowSections('talks')"><a>Talks & Outreach</a></li>
+ -->    <li id="menu" class="publications" onClick="hideShowSections('publications')"><a>Publications</a></li>
+        <li id="menu" class="CV" onClick="hideShowSections('CV')"><a>CV</a></li>
+<!--         <li id="menu" onClick="hideShowSections('talks')"><a>Talks & Outreach</a></li>
         <li id="menu" onClick="hideShowSections('awards')"><a>Awards</a></li>
-
+ -->
 <!--         <li id="menu" onClick="hideShowSections('experience')"><a>Other</a></li>
  -->
 <!--         <li id="menu" onClick="document.getElementById('etc').scrollIntoView();"><a>Etc.</a></li>
  -->
 
 </ul>
-<hr class="solid">
+</div>
+<!-- <hr class="solid"> -->
 
-<div id="image" class="container" style="margin-left:200px;margin-right:200px;display:block; padding-top:0px;text-align: center;background-image: url('mel_banner_dark.png');  background-size: cover;">
-    <div>
-        <p class="my_name" style="padding-top: 20px;margin-bottom: 20px;color: white; font-family: 'Helvetica Neue', sans-serif; font-size: 48px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;"> Melanie Bancilhon </p>
-        <p style="text-align: center;margin: 0px ;color: white;">PhD Candidate, Washington University in St. Louis</p>
-        <!-- <p style="text-align: center;margin: 0px;  ;color: white;">Department of Computer Science & Engineering</p> -->
-        <p style="text-align: center;margin: 0px;  ;color: white;"> mbancilhon@wustl.edu </p>
-        <br>
-        <div style="display:flex;justify-content: center">
-            <a style="padding-bottom: 20px" href="mailto:mbancilhon@wustl.edu" class="fa fa-envelope-open"></a>
-            <div  style="display:flex">
-                <a href="https://scholar.google.com/citations?user=J6dYHzUAAAAJ&hl=en&oi=ao"><img href="https://scholar.google.com/citations?user=J6dYHzUAAAAJ&hl=en&oi=ao" src="google_scholar_white.png" alt="HTML tutorial" style="width:50px;height:50px;"></a>
+<div id="intro">
+
+    <div style="display:flex;">
+        <p class="my_name" style="padding-top: 0px;margin-bottom: 20px;color: black; font-family: 'Helvetica Neue', sans-serif; font-size: 36px; letter-spacing: -1px; line-height: 1; text-align: left;"> <text font-weight: bold; >Melanie </text><text font-weight: regular;>Bancilhon </text></p>
+    </div>
+
+    <div class="intro-content">
+        <div class="left" style="display:block;justify-content: center">
+            <br>
+            <div><img src="mel_pic5.png" alt="" width="100%"></div>
+            <br>
+            <div style="display:block;">
+                <p style="text-align: center; margin: 0px ;color: black;">PhD Candidate @ WashU</p>
+                <!-- <p style="text-align: center;margin: 0px;  ;color: white;">Department of Computer Science & Engineering</p> -->
+                <p style="text-align: center; margin: 0px;  ;color: black;"> mbancilhon@wustl.edu </p>
+                <br>
             </div>
-            <a href="https://www.linkedin.com/in/melaniebancilhon" class="fa fa-linkedin"></a>
-            <a href="https://cse.wustl.edu/graduate/programs/Pages/phd-programs.aspx" class="fa fa-university"></a>
-            <a href="https://twitter.com/MelBanci96" class="fa fa-twitter"></a>
-    
+
+            <div style="display:flex; justify-content: center;">
+                <a style="padding-bottom: 20px" href="mailto:mbancilhon@wustl.edu" class="fa fa-envelope-open"></a>
+                <div  style="display:flex">
+                    <a href="https://scholar.google.com/citations?user=J6dYHzUAAAAJ&hl=en&oi=ao"><img href="https://scholar.google.com/citations?user=J6dYHzUAAAAJ&hl=en&oi=ao" src="google-scholar.svg" alt="HTML tutorial" style="width:40px;height:40px;"></a>
+                </div>
+                <a href="https://www.linkedin.com/in/melaniebancilhon" class="fa fa-linkedin"></a>
+                <a href="https://cse.wustl.edu/graduate/programs/Pages/phd-programs.aspx" class="fa fa-university"></a>
+                <a href="https://twitter.com/MelBanci96" class="fa fa-twitter"></a>
+
+            </div>
         </div>
 
+        <div class="right">
+                <p style="line-height: 2">
+
+                I’m a Computer Science PhD student at <a style="color: #31ac84;" href="https://cse.wustl.edu/index.html">Washington University in St. Louis</a> working with <text><a style="color: #31ac84;" href="https://alvitta.com/">Dr. Alvitta Ottley</a></text>. My thesis research is about investigating the impact of data visualization on reasoning and decision-making under uncertainty. I have a special interest in evaluating how individual differences (e.g. behavioral, cognitive) impact interactions with data. My field of expertise is at the intersection of human-computer interaction, data visualization and human-centered AI. During my PhD I have undertaken research internships at Adobe Research and IBM Research.
+                <!-- My primary research interests are at the intersection of visual analytics, decision-making under risk and explainable AI. I examine how data communication techniques and visualization impact perception, reasoning and decisions.  -->
+                <p>
+                <p> Prior to joining WashU, I obtained my B.A. in Computer Science at Smith College with Architecture & Design as a second major. </p>
+                <p> <text style="font-weight:bold;"> I will be on the job market starting Fall/ Summer 2024. </text></p>
+                <br>
+                <br>
+
+        </div>
     </div>
-    <!-- <div>
-        <figure>
-            <img class="container_image" id="mel_pic" src="mel_pic_banner.jpg" style="width:900px;height:auto;padding-right:0px;"> 
-        </figure>
-    </div> -->
 </div>
 
 
 <div id="home_page" class="container"  style="margin-left:200px;margin-right:200px;padding-top:0px;">
 
-        <div class="container_text" id="name" style="display:right;padding-left:10px;padding-top:10px;">
-                <br>
-                <br>
-                <p style="line-height: 2">
-                I am a fifth year CSE PhD Candidate at <a style="color: #31ac84;" href="https://cse.wustl.edu/index.html">Washington University in St. Louis</a> working with Dr. Alvitta Ottley in the <text><a style="color: #31ac84;" href="http://visualdata.wustl.edu/"> Visual Interface and Behavior Exploration Lab (VIBE)</a></text>.
-                My research interests are at the intersection of Human-Computer Interaction, Data Visualization and Explainable AI. My recent work has focused on investigating how visualizations can impact reasoning and decision-making under uncertainty and developing interactive interfaces that facilitate human-AI teaming. In my work, I leverage interdisciplinary approaches to evaluate decision-making across populations with varying cognitive traits. 
-                <!-- My primary research interests are at the intersection of visual analytics, decision-making under risk and explainable AI. I examine how data communication techniques and visualization impact perception, reasoning and decisions.  -->
-                <p>
-                <p> Prior to WashU, I completed my B.A. in Computer Science at Smith College with Architecture & Design as a second major. During my undergraduate career, I spent my junior year abroad in Paris at Université Paris Diderot and École Nationale d'Architecture Paris Val-de-Seine (ENSAPVS).</p>
-                <br>
-
-         <h3>Latest Research</h3>
-                <div class="flex-item">
-                    <img class="container_image" id="cognitive_bayesian" src="cognitive_bayesian.png" style="width:250px; height:200px;padding-right:20px;">
-                    <span>
-                        <text style="font-weight:bold;">Why Combining Text and Visualization Could Improve Bayesian Reasoning: A Cognitive Load Perspective</text><br>
-                        <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>AJ Wright, Sunwoo Ha, Jordan Crouser, Alvitta Ottley</text><br>
-                        <text style="font-style:italic;">ACM CHI Conference on Human Factors in Computing Systems, 2023</text><br>
-
-            <!--             <text style="font-style:italic;">PLoS ONE 16(6): e0252869, 2021</text><br>
-             --><!--             <a href="./plosOne_streetnames.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
-             -->
-                    <span>
-
-                        </p>
-                </div>
-
-                <div class="flex-item">
-                    <img class="container_image" id="nokia_streetmaps" src="plosOne_streetnames.png" style="width:250px; height:200px;padding-right:20px;">
-                    <span>
-                        <text style="font-weight:bold;">Streetonomics: Quantifying culture using street names</text><br>
-                        <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Marios Constantinides, EP Bogucka, Luca Maria Aiello, Daniele Quercia</text><br>
-                        <text style="font-style:italic;">PLoS ONE 16(6): e0252869, 2021</text><br>
-                        <a href="./plosOne_streetnames.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
-
-                    <span>
-
-                    </p>
-                </div>
-
-                <div class="flex-item">
-                    <img class="container_image" id="ashwin" src="ashwin.png" style="width:250px; height:200px;padding-right:20px;">
-                    <span>
-                        <text style="font-weight:bold;">VizXP: A Visualization Framework for Conveying Explanations to Users in Model Reconciliation Problems</text><text> (in print)</text><br>
-                        <text>Ashwin Kumar, Stylianos Loukas Vasileiou, </text><text style="font-weight:bold;">Melanie Bancilhon,</text> <text>William Yeoh, Alvitta Ottley</text> <br>
-                        <text style="font-style:italic;">ICAPS Conference on Automated Planning and Scheduling, 2021</text><br>
-                    <span>
-
-                    </p>
-                </div>
-
-                <div class="flex-item">
-                    <img class="container_image" id="gamble_teaser" src="gamble_teaser.png" style="width:250px; height:200px;padding-right:20px;">
-                    <span>
-                        <text style="font-weight:bold;">Let’s Gamble: How a Poor Visualization Can Elicit Risk Behavior</text><text> </text><br>
-                        <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Zhengliang Liu, Alvitta Ottley</text><br>
-                        <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
-                        <a href="./VIS2020_short_paper.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
-                        <a href="https://youtu.be/cux0EZ6vifo" target="_blank" class="fa fa-play">Video</a>
-                    <span>
-
-                    </p>
-                </div>
-
-                <div class="flex-item">
-                    <img class="container_image" id="interaction_teaser" src="interaction_teaser.png" style="width:250px; height:200px;padding-right:20px;">
-                    <span>
-                        <text style="font-weight:bold;">Uncovering User Interest during Data Exploration via Unsupervised Clustering</text><text> (under review)</text><br>
-                        <text>Sunwoo Ha, Robert Costales, </text><text style="font-weight:bold;">Melanie Bancilhon,</text><text> Surina Puri, Alvitta Ottley</text>
-                        <br>
-                        <text style="font-style:italic;">ACM CHI Conference on Human Factors in Computing Systems, 2020</text><br>
-                        <a href="./jen_chi.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
-                    </span>
-                </div>
-
-                <div class="flex-item">
-                   <img class="container_image" id="nokia_teaser" src="nokia_teaser.png" style="width:250px; height:200px;padding-right:20px;">
-                    <span>
-                        <text style="font-weight:bold;">Cartographic Design of Cultural Maps</text><text> (in print)</text><br>
-                        <text>Edyta Paulina Bogucka, Marios Constantinides, Luca Maria Aiello, Daniele Quercia, Wonyoung So, </text><text style="font-weight:bold;">Melanie Bancilhon</text><br>
-                        <text style="font-style:italic;">IEEE Transactions on Computer Graphics and Applications, 2020</text><br>
-                        <a href="./street_names.pdf" target="_blank" class="fa fa-file">&nbsp;PDF&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<a href="http://www.lajello.com/files/movies/pk_melanie.MP4" target="_blank" class="fa fa-play">Video</a>
-                    </span>
-                </div>
+       <div class="container_text" id="name" style="display:right;padding-left:10px;padding-top:10px;">
+<!-- 
                 <br>
                 <h3>Selected Press</h3>
                 <br>
@@ -150,7 +88,6 @@
                         <span>
                         <text style="font-weight:bold; color: #31ac84"> BBC.com </text><br>
                         <text style="font-style:italic"> <a style="color: #777;" href="https://www.bbc.com/future/article/20210712-streetonomics-what-our-addresses-say-about-us">'Streetonomics': What our addresses say about us</a></text><br><br>
-                        <text>"Since the beginning of time, rulers have used spatial engineering as a form of social engineering," write Melanie Bancilhon of Washington University in St Louis and colleagues at Nokia Bell Labs</text>
                         <span>
                     </div> 
                     <br><br>
@@ -160,9 +97,8 @@
                         <text  style="font-weight:bold;color: #31ac84"> Policy Viz Podcast</text><br>
                         <text> <a style="color: #777;" href="https://policyviz.com/podcast/episode-184-ieeevis-recap/"> Episode #184: IEEEVIS Recap </a></text><br>
                         <span>
-                    </div> 
+                    </div>  -->
 
-            </div>  
         </div>  
  
 </div>
@@ -197,32 +133,93 @@
 
 </div>
 
-<div class="flex-container" id="publications" style="display:none; margin-left:200px;margin-right:200px;padding-top:20px;">
+<div class="flex-container" id="publications" style="display:none;padding-top:20px;">
 
-    <text style="font-size:28px;"> Conference Proceedings </text><br>
-
+    <text style="font-size:28px;"> Publications </text><br>
 
     <div class="flex-item">
-        <img class="container_image" id="cognitive_bayesian" src="cognitive_bayesian.png" style="width:250px; height:200px;padding-right:20px;">
+        <img class="container_image" id="trust_teaser" src="trust_teaser.png" style="width:250px; height:200px;padding-right:20px;">
         <span>
-            <text style="font-weight:bold;">Why Combining Text and Visualization Could Improve Bayesian Reasoning: A Cognitive Load Perspective</text> <br>
-            <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>AJ Wright, Sunwoo Ha, Jordan Crouser, Alvitta Ottley</text><br>
-            <text style="font-style:italic;">ACM CHI Conference on Human Factors in Computing Systems, 2023</text><br>
+            <text style="font-weight:bold;">Why We Trust: The Viewer’s Perspective on Trust in Data
+Visualization</text><br>
+            <text>Oen McKinley, Saugat Pandey, </text><text><u>Melanie Bancilhon</u></text><text>, Alvitta Ottley</text><br>
+            <text style="font-style:italic;">under review</text><br>
 
-<!--             <text style="font-style:italic;">PLoS ONE 16(6): e0252869, 2021</text><br>
- --><!--             <a href="./plosOne_streetnames.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
- -->
         <span>
 
         </p>
     </div>
 
     <div class="flex-item">
+        <img class="container_image" id="padilla_schema" src="padilla_schema.png" style="width:250px; height:200px;padding-right:20px;">
+        <span>
+            <text style="font-weight:bold;">Improving Evaluation Using Visualization Decision-Making Models: A Practical Guide</text><br>
+            <text><u>Melanie Bancilhon,</u></text> <text>Lace Padilla, Alvitta Ottley</text><br>
+            <text style="font-style:italic;">Visualization Psychology, Springer, 2023</text><br>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-34738-2_4" target="_blank" class="fa fa-file">&nbsp;HTML</a>
+            <a href="./visPsych.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
+
+        <span>
+
+        </p>
+    </div>
+
+    <div class="flex-item">
+        <img class="container_image" id="adobe_teaser" src="adobe_teaser.png" style="width:250px; height:200px;padding-right:20px;">
+        <span>
+            <text style="font-weight:bold;">DocSpect: A Mixed Initiative System to Optimize Reviewing Strategies
+in Contract Inspection</text><text></text><br>
+            <text><u>Melanie Bancilhon</u></text><text>, Alexa Siu, Ryan Rossi, Nedim Lipka</text><br>
+            <text style="font-style:italic;">under review</text><br>
+
+        <span>
+
+        </p>
+    </div>
+
+    <div class="flex-item">
+        <img class="container_image" id="ibm_teaser" src="ibm_teaser.png" style="width:250px; height:200px;padding-right:20px;">
+        <span>
+            <text style="font-weight:bold;">Human-Centered Design for Microservice Recommendation</text><br>
+            <text><u>Melanie Bancilhon</u></text><text>, Rahul Krisha, John Rofrano</text><br>
+            <text style="font-style:italic;">in submission</text><br>
+
+        <span>
+
+        </p>
+    </div>
+
+    <div class="flex-item">
+        <img class="container_image" id="cognitive_bayesian" src="cognitive_bayesian.png" style="width:250px; height:200px;padding-right:20px;">
+        <span>
+            <text style="font-weight:bold;">Why Combining Text and Visualization Could Improve Bayesian Reasoning: A Cognitive Load Perspective</text> <br>
+            <text><u>Melanie Bancilhon</u></text><text>, AJ Wright, Sunwoo Ha, Jordan Crouser, Alvitta Ottley</text><br>
+            <text style="font-style:italic;">ACM CHI Conference on Human Factors in Computing Systems, 2023</text><br>
+            <a href="https://dl.acm.org/doi/pdf/10.1145/3544548.3581218" target="_blank" class="fa fa-file">&nbsp;HTML</a>
+            <a href="./CHI_cognitiveLoad.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
+        <span>
+
+        </p>
+    </div>
+
+    <div class="flex-item">
+        <img class="container_image" id="vis4good_teaser" src="vis4good_teaser.png" style="width:250px; height:200px;padding-right:20px;">
+        <span>
+	        <text style="font-weight:bold;">Beyond English: Centering Multilingualism in Data Visualization</text><text></text><br>
+	        <text>Noëlle Rakotondravony</text>,<text> Priya Dhawka,</text><text><u> Melanie Bancilhon</u></text><br>
+	        <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2023</text><br>
+	        <a href="https://arxiv.org/pdf/2309.06659.pdf" target="_blank" class="fa fa-file">&nbsp;HTML</a>
+	        <a href="./beyondEnglish.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
+        </span>
+    </div>
+
+    <div class="flex-item">
         <img class="container_image" id="nokia_streetmaps" src="plosOne_streetnames.png" style="width:250px; height:200px;padding-right:20px;">
         <span>
             <text style="font-weight:bold;">Streetonomics: Quantifying culture using street names</text><br>
-            <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Marios Constantinides, EP Bogucka, Luca Maria Aiello, Daniele Quercia</text><br>
+            <text><u>Melanie Bancilhon</u></text><text>, Marios Constantinides, EP Bogucka, Luca Maria Aiello, Daniele Quercia</text><br>
             <text style="font-style:italic;">PLoS ONE 16(6): e0252869, 2021</text><br>
+            <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252869&fbclid=IwAR3ooMZQ2iS0Dih1KSMyHBrDkMWt2_syipwp73_6_afE6lpInpNI-yWX5Hk" target="_blank" class="fa fa-file">&nbsp;HTML</a>
             <a href="./plosOne_streetnames.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
 
         <span>
@@ -233,9 +230,12 @@
     <div class="flex-item">
         <img class="container_image" id="ashwin" src="ashwin.png" style="width:250px; height:200px;padding-right:20px;">
         <span>
-            <text style="font-weight:bold;">VizXP: A Visualization Framework for Conveying Explanations to Users in Model Reconciliation Problems</text><text> (in print)</text><br>
-            <text>Ashwin Kumar, Stylianos Loukas Vasileiou, </text><text style="font-weight:bold;">Melanie Bancilhon,</text> <text>William Yeoh, Alvitta Ottley</text> <br>
+            <text style="font-weight:bold;">VizXP: A Visualization Framework for Conveying Explanations to Users in Model Reconciliation Problems</text><text></text><br>
+            <text>Ashwin Kumar, Stylianos Loukas Vasileiou, </text><text><u>Melanie Bancilhon</u></text><text>, William Yeoh, Alvitta Ottley</text> <br>
             <text style="font-style:italic;">ICAPS Conference on Automated Planning and Scheduling, 2021</text><br>
+            <a href="https://ojs.aaai.org/index.php/ICAPS/article/view/19860/19619" target="_blank" class="fa fa-file">&nbsp;HTML</a>
+            <a href="./visXP.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
+
         <span>
 
         </p>
@@ -245,8 +245,9 @@
         <img class="container_image" id="gamble_teaser" src="gamble_teaser.png" style="width:250px; height:200px;padding-right:20px;">
         <span>
             <text style="font-weight:bold;">Let’s Gamble: How a Poor Visualization Can Elicit Risk Behavior</text><text> </text><br>
-            <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Zhengliang Liu, Alvitta Ottley</text><br>
+            <text><u>Melanie Bancilhon</u></text><text>, Zhengliang Liu, Alvitta Ottley</text><br>
             <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
+            <a href="https://arxiv.org/pdf/2010.14069.pdf" target="_blank" class="fa fa-file">&nbsp;HTML</a>
             <a href="./VIS2020_short_paper.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
             <a href="https://youtu.be/cux0EZ6vifo" target="_blank" class="fa fa-play">Video</a>
         <span>
@@ -254,51 +255,38 @@
         </p>
     </div>
 
-    <div class="flex-item">
+<!--     <div class="flex-item">
         <img class="container_image" id="interaction_teaser" src="interaction_teaser.png" style="width:250px; height:200px;padding-right:20px;">
         <span>
             <text style="font-weight:bold;">Uncovering User Interest during Data Exploration via Unsupervised Clustering</text><text> (under review)</text><br>
-            <text>Sunwoo Ha, Robert Costales, </text><text style="font-weight:bold;">Melanie Bancilhon,</text><text> Surina Puri, Alvitta Ottley</text>
+            <text>Sunwoo Ha, Robert Costales, </text><text><u>Melanie Bancilhon</u></text><text>, Surina Puri, Alvitta Ottley</text>
             <br>
             <text style="font-style:italic;">ACM CHI Conference on Human Factors in Computing Systems, 2020</text><br>
+            <a href="./jen_chi.pdf" target="_blank" class="fa fa-file">&nbsp;HTML</a>
             <a href="./jen_chi.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
         </span>
-    </div>
+    </div> -->
 
     <div class="flex-item">
        <img class="container_image" id="nokia_teaser" src="nokia_teaser.png" style="width:250px; height:200px;padding-right:20px;">
         <span>
-            <text style="font-weight:bold;">Cartographic Design of Cultural Maps</text><text> (in print)</text><br>
-            <text>Edyta Paulina Bogucka, Marios Constantinides, Luca Maria Aiello, Daniele Quercia, Wonyoung So, </text><text style="font-weight:bold;">Melanie Bancilhon</text><br>
+            <text style="font-weight:bold;">Cartographic Design of Cultural Maps</text><br>
+            <text>Edyta Paulina Bogucka, Marios Constantinides, Luca Maria Aiello, Daniele Quercia, Wonyoung So, </text><text><u>Melanie Bancilhon</u></text><br>
             <text style="font-style:italic;">IEEE Transactions on Computer Graphics and Applications, 2020</text><br>
-            <a href="./street_names.pdf" target="_blank" class="fa fa-file">&nbsp;PDF&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<a href="http://www.lajello.com/files/movies/pk_melanie.MP4" target="_blank" class="fa fa-play">Video</a>
+            <a href="https://arxiv.org/abs/2106.04688" target="_blank" class="fa fa-file">&nbsp;HTML&nbsp;</a>
+            <a href="./street_names.pdf" target="_blank" class="fa fa-file">&nbsp;PDF&nbsp;</a>
         </span>
     </div>
 
-    <br><br>
-
-    <text style="font-size:28px;"> Workshops Papers</text><br>
-    <br><br><br>
-
-    <div class="flex-item">
-        <img class="container_image" id="vis4good_teaser" src="vis4good_teaser.png" style="width:250px; height:200px;padding-right:20px;">
-        <span>
-        <text style="font-weight:bold;">Beyond English: Centering Multilingualism in Data Visualization</text><text></text><br>
-        <text>Noëlle Rakotondravony</text>,<text> Priya Dhawka</text>,<text style="font-weight:bold;"> Melanie Bancilhon</text><br>
-
-        <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2023</text><br>
-        <!-- <a href="./gist.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a> -->
-
-        </span>
-    </div>
 
     <div class="flex-item">
         <img class="container_image" id="gist_teaser" src="gist_teaser.png" style="width:250px; height:200px;padding-right:20px;">
         <span>
         <text style="font-weight:bold;">Did You Get The Gist Of It? Understanding How Visualization Impacts Decision-Making</text><text></text><br>
-        <text style="font-weight:bold;">Melanie Bancilhon</text><text>, Alvitta Ottley</text><br>
+        <text><u>Melanie Bancilhon</u></text><text>, Alvitta Ottley</text><br>
 
         <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
+        <a href="https://arxiv.org/pdf/2010.04096.pdf" target="_blank" class="fa fa-file">&nbsp;HTML</a>
         <a href="./gist.pdf" target="_blank" class="fa fa-file">&nbsp;PDF</a>
 
         </span>
@@ -308,39 +296,20 @@
         <img class="container_image" id="failfest_teaser" src="failfest_teaser.png" style="width:250px; height:200px;padding-right:20px;">
         <span>
         <text style="font-weight:bold;">Expectation Versus Reality: The Failed Evaluation of a Mixed-Initiative Visualization System</text><text></text><br>
-        <text>Sunwoo Ha, Adam Kern, </text> <text style="font-weight:bold;">Melanie Bancilhon</text><text>, Alvitta Ottley</text><br>
+        <text>Sunwoo Ha, Adam Kern, </text><text><u>Melanie Bancilhon</u></text><text>, Alvitta Ottley</text><br>
         <text style="font-style:italic;">IEEE Transactions on Visualization and Computer Graphics, 2020</text><br>
-        <a href="" class="fa fa-file">&nbsp;PDF coming soon</a>
+         <a href="https://arxiv.org/pdf/2009.06019.pdf" class="fa fa-file">&nbsp;HTML</a>
+        <a href="failFest.pdf" class="fa fa-file">&nbsp;PDF</a>
         </span>   
     </div>
 
-
-    <br><br>
-
-    <text style="font-size:28px;">Book Chapters</text><br>
-    <br><br><br>
-
-    <div class="flex-item">
-        <img class="container_image" id="padilla_schema" src="padilla_schema.png" style="width:250px; height:200px;padding-right:20px;">
-        <span>
-            <text style="font-weight:bold;">Evaluating Visualization Decision-Making with Cognitive Frameworks</text><text> (in print)</text><br>
-            <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Lace Padilla, Alvitta Ottley</text><br>
-            <text style="font-style:italic;">Book on Visualization Psychology, Springer, 2021</text><br>
-        <span>
-
-        </p>
-    </div>
-
-
-    <text style="font-size:28px;"> Poster Presentations</text><br>
-    <br><br><br>
 
     <div class="flex-item">
         <img class="container_image" id="poster_teaser" src="poster_teaser.png" style="width:250px; height:200px;padding-right:20px;">
 
         <span>
                 <text style="font-weight:bold;">Icons are Best: Ranking Visualizations for Proportion Estimation</text><br>
-               <text>Zhengliang Liu, </text> <text style="font-weight:bold;">Melanie Bancilhon,</text> <text>Alvitta Ottley </text><br> 
+               <text>Zhengliang Liu, </text> <text><u>Melanie Bancilhon</u></text><text>, Alvitta Ottley </text><br> 
                 <text style="font-style:italic;">IEEE Information Visualization, 2019</text><br>
                 <a href="./poster.pdf" target="_blank" class="fa fa-file">&nbsp;PDF&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
         </span>
@@ -381,9 +350,9 @@
 
 </div>
 
-<div id="CV" style=" display:none; margin-left:200px;margin-right:200px;padding-top:20px;">
-    <a style="color:#31ac84;" class="text-center" href="./CV_Sep23.pdf" target="_blank">Click to Download CV</a>
-    <embed src="./CV_Sep23.pdf" type="application/pdf" width="100%" height="800px">
+<div id="CV" style=" display:none;padding-top:20px;">
+    <a style="color:#31ac84; padding-bottom: 20px; display: block; text-align: center;" class="text-center" href="./ResearchCV.pdf" target="_blank">Click to Download CV</a>
+    <embed src="./ResearchCV.pdf" type="application/pdf" width="100%" height="800px">
 </div>
 
 <div id="awards" style=" display:none;margin-left:200px;margin-right:200px;padding-top:20px;">
@@ -445,6 +414,7 @@
 <script type='text/javascript'>
 function hideShowSections(section){
     console.log("in hide show")
+    document.getElementById("intro").style.display="none";
     document.getElementById("home_page").style.display="none";
     document.getElementById("publications").style.display="none";
     document.getElementById("talks").style.display="none";
@@ -456,13 +426,16 @@ function hideShowSections(section){
 
     if (section=="home_page"){
         document.getElementById(section).style.display="flex";
+        document.getElementById("intro").style.display="block";
 
     }
     else{
         document.getElementById(section).style.display="block";
 
     }
-
+    
+    document.querySelectorAll("li#menu > a").forEach(m => m.classList.remove('active') )
+    document.querySelector('li.' + section + ' > a').classList.add('active')
 }
 </script>
 

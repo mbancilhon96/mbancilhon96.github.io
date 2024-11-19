@@ -7,6 +7,8 @@ body {
   max-width: 1000px;
   margin: 0px auto;
   padding: 0px 20px;
+  min-width: 320px; /* Set the minimum width for your layout */
+
 }
 
 @media (min-width: 750px) {
@@ -138,10 +140,10 @@ p {
   font-size: 16px
 }
 text#my_name {
-  font-size: 40px;
+  font-size: 36px;
   font-family: 'Helvetica';
   padding-bottom: 10px;
-  font-weight: bold;
+  font-weight: lighter;
 }
 text#my_last_name {
   font-size: 40px;
@@ -163,7 +165,7 @@ p {
   /* Safari */
   position: sticky;
   top: 0;
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
   display: flex;
   justify-content: center;
 }
@@ -203,6 +205,7 @@ li#menu a {
   margin-left: 8px;
   margin-right: 8px;
   cursor: pointer;
+  font-size: 18px;
 }
 
 @media (min-width: 500px) {
@@ -220,6 +223,7 @@ li#menu a:hover {
 
 li#menu a.active {
   color: #31ac84;
+  font-weight: bold;
 }
 
 /*=======Image Flex=========*/
@@ -251,23 +255,77 @@ hr {
 }
 
 /*============ intro ============*/
+/* SMALL SCREENS */
 .intro-content {
   display: flex;
   flex-direction: column;
-}
+  align-items: center; /* Center all children horizontally */
 
-@media (min-width: 750px) {
-  .intro-content {
-    flex-direction: row;
-  }
+}
+.myNameDiv {
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Center vertically if needed */
+  width: 100%; /* Ensure it takes full width on smaller screens */
+  margin: 0; /* Remove default margin */
+  display: flex;
 }
 
 .intro-content .right {
+  display: flex;
+  flex-direction: column;
   padding-left: 0px;
+  margin:50px
+}
+.intro-content .left {
+  width: 100%; /* Ensure it takes full width on smaller screens */
+  margin-right: 0;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Center vertically if needed */
+  display: flex;
+
+}
+.intro-content img {
+  width: 75%; /* Make the image responsive by taking the width of its container */
+  max-width: 300px; /* Limit the max width to prevent it from growing too large */
+  height: auto; /* Maintain the aspect ratio */
+  margin: 0 auto; /* Center the image horizontally by default */
+  justify-content: center; /* Horizontally center the content */
 }
 
-@media (min-width: 750px) {
+.intro-content .my_name{
+  text-align: center;
+}
+/* LARGE SCREENS */
+
+@media (min-width: 900px) {
+  .intro-content {
+    flex-direction: row;
+    align-items: flex-start; /* Reset alignment for larger screens */
+
+  }
+  .myNameDiv {
+    justify-content: flex-start; /* Align to the left on large screens */
+    width: auto; /* Reset width for larger screens */
+    margin: 0; /* Reset margin for larger screens */
+
+  }
   .intro-content .right {
     padding-left: 10px;
+    margin-right: 150px; /* Add a 150px margin for larger screens */
+    max-width: 500px; /* Enforce a maximum size */
+    margin:0
+
+  }
+  .intro-content .left {
+    width: 300px; /* or adjust to a smaller fixed width, e.g., 90% or 600px */
+    margin-right: 10px; /* Optional: Adjust margin for smaller screens */
+    justify-content: flex-start; /* Align to the start for larger screens */
+
+  }
+  .intro-content img {
+    width: 300px; /* Ensure it stays within its container */
+    max-width: 300px; /* Enforce a maximum size */
+
   }
 }
+

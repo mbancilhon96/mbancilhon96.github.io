@@ -1,7 +1,9 @@
 body {
-  font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Source Sans Pro", "Source Sans Pro";
   color: black;
-  font-size: 18;
+  font-weight: 300;
+  font-style: lighter;
+  font-size: 20;
   /* margin-left: 100px;
   margin-right: 100px; */
   max-width: 1000px;
@@ -13,7 +15,7 @@ body {
 
 @media (min-width: 750px) {
   body {
-    padding: 0px 100px;
+    padding: 0px 200px;
   }
 }
 
@@ -108,19 +110,54 @@ span {
 .fa-file {
   padding: 2px;
   font-size: 15px;
-  width: 120px;
+  width: 200px;
   text-align: left;
   text-decoration: none;
   color: #31ac84;
   /*  color: black;
 */
 }
+.fa-download{
+  padding: 2px;
+  font-size: 15px;
+  width: 200px;
+  text-align: left;
+  text-decoration: none;
+  color: #31ac84;
+}
 
+.fa-file-pdf-o{
+  padding: 2px;
+  font-size: 15px;
+  width: 120px;
+  text-align: left;
+  text-decoration: none;
+  color: #31ac84;
+}
+
+#clickToDownload.fa-file-pdf-o{
+  padding: 2px;
+  font-size: 18px;
+  width: 200px;
+  text-align: left;
+  text-decoration: none;
+  color: #31ac84;
+}
+
+.fa-globe{
+  padding: 2px;
+  font-size: 15px;
+  width: 120px;
+  text-align: left;
+  text-decoration: none;
+  color: #31ac84;
+
+}
 .fa-play {
   padding: 5px;
   font-size: 15px;
-  width: 15px;
-  text-align: center;
+  width: 120px;
+  text-align: left;
   text-decoration: none;
   color: #31ac84;
   /*  color: black;
@@ -134,20 +171,21 @@ span {
 
 /*=======text=========*/
 text {
-  font-size: 16px
+  font-size: 18px
 }
 p {
-  font-size: 16px
+  font-size: 18px
 }
 text#my_name {
   font-size: 36px;
-  font-family: 'Helvetica';
+  font-family: 'Source Sans Pro';
   padding-bottom: 10px;
   font-weight: lighter;
 }
 text#my_last_name {
   font-size: 40px;
-  font-family: 'Helvetica';
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
   padding-bottom: 10px;
 }
 p {
@@ -196,6 +234,10 @@ li#menu {
   float: left;
 }
 
+a {
+  text-decoration: none;
+}
+
 li#menu a {
   display: block;
   color: black;
@@ -223,7 +265,7 @@ li#menu a:hover {
 
 li#menu a.active {
   color: #31ac84;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 /*=======Image Flex=========*/
@@ -297,10 +339,10 @@ hr {
 }
 /* LARGE SCREENS */
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .intro-content {
     flex-direction: row;
-    align-items: flex-start; /* Reset alignment for larger screens */
+    align-items: flex-start; /*Reset alignment for larger screens*/
 
   }
   .myNameDiv {

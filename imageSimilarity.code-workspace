@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "imageSimilarity",
+			"path": "../imageSimilarity"
+		},
+		{
+			"name": "item_images",
+			"path": "../../Downloads/item_images"
+		}
+	],
+	"settings": {}
+}

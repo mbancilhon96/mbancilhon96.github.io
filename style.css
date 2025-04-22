@@ -3,7 +3,7 @@ body {
   color: black;
   font-weight: 300;
   font-style: lighter;
-  font-size: 20;
+  font-size: 16;
   /* margin-left: 100px;
   margin-right: 100px; */
   max-width: 1000px;
@@ -171,10 +171,10 @@ span {
 
 /*=======text=========*/
 text {
-  font-size: 18px
+  font-size: 16px
 }
 p {
-  font-size: 18px
+  font-size: 16px
 }
 text#my_name {
   font-size: 36px;

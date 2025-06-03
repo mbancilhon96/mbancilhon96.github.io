@@ -163,7 +163,16 @@ span {
   /*  color: black;
 */
 }
-
+.fa-music {
+  padding: 5px;
+  font-size: 15px;
+  width: 120px;
+  text-align: left;
+  text-decoration: none;
+  color: #31ac84;
+  /*  color: black;
+*/
+}
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;

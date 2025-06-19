@@ -192,9 +192,91 @@ go in and work on those. So any contract over [amount] where these clauses are n
     B) Inspect the set of possible values of contracts with TFC clauses and their corresponding probability C) Review contracts by confirming or overriding the
     classifier recommendation. Every time a user reviews a contract, the confidence of the label identification is set to 1 and the projections in B) are updated.</p>
 <br>
-<br>
-<br>
 
+<h3>Evaluation</h3>
+<p>We conducted a preliminary qualitative evaluation of our system
+    with 4 knowledge workers recruited via an online testing platform.
+    Our goal was to observe how knowledge workers use our system
+    to reach a decision about revenue at risk. Knowledge workers were
+    recruited if they read or reviewed contracts at least once a month,
+    reviewed contracts pertaining to a relevant sector, were familiar
+    with termination for convenience clauses, worked for a company
+    in a relevant sector and in a relevant divisions</p>
+
+<p>
+    In our task, we asked users to predict the total revenue at risk
+    due to the presence of Termination for Convenience (TFC) clauses
+    across a set of 16 contracts identified by the hypothetical imperfect
+    classifier described in section 3.1. Participants were shown a baseline
+    interface that did not contain uncertainty information or outcome
+    projections (see figure 3), and the DocSpect interface.
+    Participants were given a definition of Termination for Conve-
+    nience and shown examples of TFC clauses, followed by a short
+    practice quiz that involved identifying TFC clauses. In the main
+    task, participants were shown the baseline interface followed by
+    the DocSpect interface preceded by an instruction video on how to
+    use each interface. In both conditions, users were given a maximum
+    of 3 minutes to report as accurately as possible the total revenue
+    at risk due to the presence of TFC clauses across the contracts.
+    After the time was up, the table of contracts disappeared but the
+    rest of the information remained on the screen. The time limit of 3
+    minutes, determined through pilot studies, was chosen to replicate
+    real world conditions where the set of contracts is too large for
+    knowledge workers to review every single one. Users could end
+    the task before the timer if they wished to do so.
+    After each condition (baseline or DocSpect), users were asked
+    to report their answer for the total revenue at risk due to TFC as
+    well as their level of confidence. Then, they completed a task load
+    comprising of three sub-scales of the NASA-TLX workload test,
+    namely mental demand, performance and effort. Task load scores range between 5 (no effort at all) and 15 (maximum effort). They
+    also completed a usability test. 
+</p>
+
+<p>
+    When using both the baseline and the DocSpect interface, users
+    reviewed the contracts in a sequential order from the table until the
+    timer was over. When using the DocSpect interface, they did not use
+    the reviewing parameters and did not adopt a particular reviewing
+    strategy. This could be due to the time constraints imposed by
+    the study design which caused the users to focus on reviewing
+    the maximum number of contracts. One solution is to improve
+    our system to have more explicit reviewing strategies that they
+    can adjust, as well as an initial set of recommendations. Moreover,
+    participants reported a high average total task load score of 14.25
+    when using DocSpect and 12.25 when using the baseline interface,
+    and average usability scores were low for both interfaces.
+    While they were reviewing contracts using DocSpect, users did
+    not refer to the histogram, which shows the set of possible outcomes
+    and their confidence. This could also be due to the additional time
+    constraint of reading the graph. However, only one user used the
+    histogram after the timer was up and still failed to report the value
+    with the highest probability. This behavior could be due to poor
+    understanding of uncertainty information, or poor uncertainty
+    visualization literacy. Several studies have shown that it is difficult
+    for people to understand uncertainty information [ 5], despite its
+    value in facilitating evidence-based decision-making [7, 9].
+    In future system developments, we plan on revisiting ways to
+    encourage users to consider the uncertainty information in their
+    reviewing strategies and when reporting revenue. Moreover, the
+    study design could be improved by allowing users to review only
+    a portion of the set of contracts instead of imposing a time limit,
+    which created time pressure.
+</p>
+
+<p>
+    While future work needs to be conducted to improve system fea-
+    tures in DocSpect as well as the study design, our framework pro-
+    vides a novel perspective, informed by knowledge workers work-
+    flow, on ways to optimize contract reviewing strategies such that
+    ensuing forecasting outcomes and business decisions are improved.
+    We encourage researchers to consider the impact on decision-
+    making when evaluating systems.    
+
+</p>
+
+<br>
+<br>
+<br>
 
 
 

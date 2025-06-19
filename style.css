@@ -18,6 +18,72 @@ body {
     padding: 0px 200px;
   }
 }
+/*=======Projects flex image=========*/
+#projects_page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 40px 20px; /* vertical and horizontal spacing */
+  padding: 0px 0px;
+  max-width: 650px;
+  /*margin: 0 auto;*/
+}
+
+.project-box {
+  position: relative; /* Needed for overlay positioning */
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: calc(50% - 20px); /* two columns */
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.project-box:hover {
+  background-color: #e0e0e0; /* slightly darker gray */
+}
+.project-image {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  border-radius: 12px;
+  aspect-ratio: 4 / 3;
+  display: block;
+}
+
+.project-text {
+  margin-top: 12px;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .project-box {
+    width: 100%;
+  }
+}
+
+.project-overlay-link {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  text-indent: -9999px; /* Hide link text but keep accessibility */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #31ac84;
+}
 
 /*=======Publications flex image=========*/
 .flex-container {
@@ -92,6 +158,7 @@ body {
 span {
   padding-left: 5px;
 }
+
 
 /*=======Contact icons=========*/
 
@@ -239,15 +306,7 @@ ul#menu {
     outline-width: 0.5px;*/
 }
 
-li#menu {
-  float: left;
-}
-
-a {
-  text-decoration: none;
-}
-
-li#menu a {
+.menu-link {
   display: block;
   color: black;
   text-align: center;
@@ -260,19 +319,18 @@ li#menu a {
 }
 
 @media (min-width: 500px) {
-  li#menu a {
+  .menu-link {
     padding: 15px 25px;
     margin-left: 15px;
     margin-right: 15px;
   }
 }
 
-li#menu a:hover {
-  /* background-color: #111; */
+.menu-link:hover {
   color: #31ac84;
 }
 
-li#menu a.active {
+.menu-link.active {
   color: #31ac84;
   font-weight: bolder;
 }

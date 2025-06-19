@@ -86,6 +86,14 @@ a:hover {
 }
 
 /*=======Publications flex image=========*/
+
+.pub-section-header {
+  font-size: 20px;
+  font-weight: normal;
+  color: #31ac84;
+  margin: 40px 0 10px 0;
+}
+
 .flex-container {
   display: -webkit-flex;
   display: flex;
@@ -160,45 +168,71 @@ span {
 }
 
 
-/*=======Contact icons=========*/
+/*=======icons=========*/
 
 .fa {
   padding: 5px;
   font-size: 25px;
   width: 25px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline;
   /* color: #31ac84; */
   color: black;
+  padding: 20px;
 
+}
+
+.fa.fa-chain {
+  padding: 0px;
+  font-size: 16px;
+  width: 200px;
+  text-align: center;
+  text-decoration: underline;
+  color: #31ac84;
+}
+
+.fa-file-text-o {
+  padding: 0px;
+  font-size: 16px;
+  /* width: 400px; */
+  width: auto;            /* allows width to fit content */
+  text-align: center;
+  text-decoration: underline;
+  color: #31ac84;
 }
 
 /*Small icons */
 .fa-file {
   padding: 2px;
-  font-size: 15px;
-  width: 200px;
+  font-size: 16px;
+  /* width: 200px; */
+  width: auto;            /* allows width to fit content */
+
   text-align: left;
-  text-decoration: none;
+  text-decoration: underline;
   color: #31ac84;
   /*  color: black;
 */
 }
+
+
 .fa-download{
   padding: 2px;
-  font-size: 15px;
+  font-size: 16px;
   width: 200px;
   text-align: left;
-  text-decoration: none;
+  text-decoration: underline;
   color: #31ac84;
 }
 
 .fa-file-pdf-o{
   padding: 2px;
-  font-size: 15px;
-  width: 120px;
+  font-size: 16px;
+  /* max-width: 300px;
+  min-width: 120px; */
+  width: auto;            /* allows width to fit content */
   text-align: left;
-  text-decoration: none;
+  text-decoration: underline;
   color: #31ac84;
 }
 
@@ -207,35 +241,39 @@ span {
   font-size: 18px;
   width: 200px;
   text-align: left;
-  text-decoration: none;
+  text-decoration: underline;
   color: #31ac84;
 }
 
 .fa-globe{
   padding: 2px;
-  font-size: 15px;
-  width: 120px;
+  font-size: 16px;
+  /* width: 120px; */
+  width: auto;            /* allows width to fit content */
+
   text-align: left;
-  text-decoration: none;
+  text-decoration: underline;
   color: #31ac84;
 
 }
 .fa-play {
   padding: 5px;
-  font-size: 15px;
-  width: 120px;
+  font-size: 16px;
+  /* width: 120px; */
+  width: auto;            /* allows width to fit content */
   text-align: left;
-  text-decoration: none;
+  text-decoration: underline;
   color: #31ac84;
   /*  color: black;
 */
 }
 .fa-music {
   padding: 5px;
-  font-size: 15px;
-  width: 120px;
+  font-size: 16px;
+  /* width: 120px; */
+  width: auto;            /* allows width to fit content */
   text-align: left;
-  text-decoration: none;
+  text-decoration: underline;
   color: #31ac84;
   /*  color: black;
 */
@@ -282,6 +320,7 @@ p {
   /* border-bottom: 1px solid #ccc; */
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 ul#menu {
@@ -298,9 +337,11 @@ ul#menu {
   /* padding-left: 25px; */
 
   display: flex;
-  justify-content: space-evenly;
-  max-width: 500px;
-
+  /* justify-content: space-evenly; */
+  justify-content: center;  /* <-- this centers the items inside the menu */
+  /* max-width: 500px; */
+  align-items: center;
+  gap: 30px; /* optional spacing between items */
   /*    outline-style: solid;
     outline-color:grey;
     outline-width: 0.5px;*/
@@ -383,7 +424,7 @@ hr {
   display: flex;
   flex-direction: column;
   padding-left: 0px;
-  margin:50px
+  /* margin:50px */
 }
 .intro-content .left {
   width: 100%; /* Ensure it takes full width on smaller screens */
@@ -420,14 +461,14 @@ hr {
   }
   .intro-content .right {
     padding-left: 10px;
-    margin-right: 150px; /* Add a 150px margin for larger screens */
+    /* margin-right: 150px;  */
     max-width: 500px; /* Enforce a maximum size */
     margin:0
 
   }
   .intro-content .left {
     width: 300px; /* or adjust to a smaller fixed width, e.g., 90% or 600px */
-    margin-right: 10px; /* Optional: Adjust margin for smaller screens */
+    /* margin-right: 10px; Optional: Adjust margin for smaller screens */
     justify-content: flex-start; /* Align to the start for larger screens */
 
   }
